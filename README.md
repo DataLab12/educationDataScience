@@ -1,4 +1,4 @@
-# Gradient Boosting Modeling Improvement for Tabular Data in the Wild
+# Tabular Data in the Wild: Gradient Boosting Modeling Improvement
 **Policy Planning and Identifying Weakest Links in Texas Public School System Using Public Data**
 
 **Author**
