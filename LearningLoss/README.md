@@ -41,10 +41,7 @@ Raw data were collected and cleaned from 8 different sources under [data](data) 
    - ESSER: Amount of each grant allocation
 
 ### Feature Selection
-- [Feature_Selection_Math.ipynb](src/processing/Feature_Selection_Math.ipynb) 
-- [Feature_Selection_Reading.ipynb](src/processing/Feature_Selection_Reading.ipynb)
-
-9 methods were used to score feature importance automatically and select the best features predicting Learning Loss:
+9 methods were used to score feature importance automatically and select the best features predicting Learning Loss for [Feature_Selection_Math.ipynb](src/processing/Feature_Selection_Math.ipynb) and [Feature_Selection_Reading.ipynb](src/processing/Feature_Selection_Reading.ipynb):
 * Filter Methods
 	* Variance Threshold
 * Embedded Methods
