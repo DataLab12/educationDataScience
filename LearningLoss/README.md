@@ -1,13 +1,10 @@
-# [data](data)
+## [data](data)
 Cleaning all raw data
 
-# [docs](docs)
+## [docs](docs)
 Project related documents
 
-# [src](src)
-Python notebooks  
-
-## [processing](src/processing)
+## [src/processing](src/processing)
 Raw data were collected and cleaned from 8 different sources under [data](../data) folder, each subfolder indicates data source. Integrated data go through  Exploratory Data Analysis to explain data in detail, then Features Selection to reduce dimensionality of data for Modeling step. 
 
 ### Data Integration
@@ -22,7 +19,7 @@ Raw data were collected and cleaned from 8 different sources under [data](../dat
 | [Covid, USAFacts](https://usafacts.org/visualizations/coronavirus-covid-19-spread-map/state/texas) | Texas Coronavirus Cases and Deaths | USAFacts | County | (254, 8) |
 | [ADA, TEA](https://tea.texas.gov/finance-and-grants/state-funding/state-funding-reports-and-data/average-daily-attendance-and-wealth-per-average-daily-attendance) | Average Daily Attendance | Texas Education Agency | District | (1226, 3) |
 | [ESSER, TEA](https://tea.texas.gov/finance-and-grants/grants/grants-administration/applying-for-a-grant/entitlements) | Elementary and Secondary School Emergency Relief | Texas Education Agency | District | (1208, 6)  |
-- [Data_Integration.ipynb](processing/Data_Integration.ipynb): All cleaned data are integrated into single dataframe and processed as below
+- [Data_Integration.ipynb](src/processing/Data_Integration.ipynb): All cleaned data are integrated into single dataframe and processed as below
   1. Normalization: Normalizing numberical data into a percentage.
   2. Calculating Delta: Getting differences for the important variables having both values for 2018-2019 and 2020-2021
   3. Labeling: Creating 3 classes for Learning Loss: Loss, Expected, Gain
@@ -32,7 +29,7 @@ Raw data were collected and cleaned from 8 different sources under [data](../dat
   - DATA_Texas_District_v3.csv: raw integrated data without normalization, delta. missing value handling for Gradient Boosting experiment
 
 ### Exploratory Data Analysis
-- [EDA.ipynb](processing/EDA.ipynb)
+- [EDA.ipynb](src/processing/EDA.ipynb)
    - Locale
    - Poverty Proxy: Ttile 1, Free or Reduced Lunch elibility
    - Race/Ethnicity
@@ -44,8 +41,8 @@ Raw data were collected and cleaned from 8 different sources under [data](../dat
    - ESSER: Amount of each grant allocation
 
 ### Feature Selection
-- [Feature_Selection_Math.ipynb](processing/Feature_Selection_Math.ipynb) 
-- [Feature_Selection_Reading.ipynb](processing/Feature_Selection_Reading.ipynb)
+- [Feature_Selection_Math.ipynb](src/processing/Feature_Selection_Math.ipynb) 
+- [Feature_Selection_Reading.ipynb](src/processing/Feature_Selection_Reading.ipynb)
     9 methods were used to score feature importance automatically and select the best features predicting Learning Loss:
     * Filter Methods
     	* Variance Threshold
@@ -60,11 +57,11 @@ Raw data were collected and cleaned from 8 different sources under [data](../dat
     	* Sequential Feature Selection (SFS) with KNN
     	* Sequential Feature Selection (SFS) with Ridge Regression
 
-## [modeling](src/modeling)
-Prediction modeling on Learning Loss due to COVID-19 in math and reading go through 3 phases: State-of-an-art modeling, Gradient boosting modeling, and Gradient boosting experimenting with missing values. First two phases compare 10 feature sets selected from [Feature_Selection_Math.ipynb](processing/Feature_Selection_Math.ipynb) and [Feature_Selection_Reading.ipynb](processing/Feature_Selection_Reading.ipynb), and the last phase experiments with raw data containing missing values.
+## [src/modeling](src/modeling)
+Prediction modeling on Learning Loss due to COVID-19 in math and reading go through 3 phases: State-of-an-art modeling, Gradient boosting modeling, and Gradient boosting experimenting with missing values. First two phases compare 10 feature sets selected from [Feature_Selection_Math.ipynb](src/processing/Feature_Selection_Math.ipynb) and [Feature_Selection_Reading.ipynb](src/processing/Feature_Selection_Reading.ipynb), and the last phase experiments with raw data containing missing values.
 
 ### State-of-an-art modeling 
-* 5 models were trained to predict Learning Loss in [Modeling_BL_Math.ipynb](modeling/Modeling_BL_Math.ipynb) and [Modeling_BL_Reading.ipynb](modeling/Modeling_BL_Reading.ipynb)
+* 5 models were trained to predict Learning Loss in [Modeling_BL_Math.ipynb](src/modeling/Modeling_BL_Math.ipynb) and [Modeling_BL_Reading.ipynb](src/modeling/Modeling_BL_Reading.ipynb)
   * Ridge Regression
   * SVM (Linear, Kernel)
   * KNN
@@ -72,11 +69,11 @@ Prediction modeling on Learning Loss due to COVID-19 in math and reading go thro
   * Grandient Boosting
 
 ### Advanced gradient boosting modeling 
-* 4 models were trained to predict Learning Loss in [Modeling_GB_Math.ipynb](modeling/Modeling_GB_Math.ipynb) and [Modeling_GB_Reading.ipynb](modeling/Modeling_GB_Reading.ipynb) 
+* 4 models were trained to predict Learning Loss in [Modeling_GB_Math.ipynb](src/modeling/Modeling_GB_Math.ipynb) and [Modeling_GB_Reading.ipynb](src/modeling/Modeling_GB_Reading.ipynb) 
   * XGBoost
   * LightGBM
   * CatBoost
   * HistGradientBoost
 
 ### Experimenting Advanced gradient boosting modeling with missing values
-* The same 4 gradient boosting models were trained to predict Learning Loss using raw data with missing values in [Modeling_NA_GB_Math.ipynb](modeling/Modeling_NA_GB_Math.ipynb) and [Modeling_NA_GB_Reading.ipynb](modeling/odeling_NA_GB_Reading.ipynb) 
+* The same 4 gradient boosting models were trained to predict Learning Loss using raw data with missing values in [Modeling_NA_GB_Math.ipynb](src/modeling/Modeling_NA_GB_Math.ipynb) and [Modeling_NA_GB_Reading.ipynb](src/modeling/odeling_NA_GB_Reading.ipynb) 
