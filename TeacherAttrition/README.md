@@ -1,0 +1,83 @@
+# Processing
+Cleaned raw data are saved under [data_clean](../data/data_clean) folder. Integrated data go through Exploratory Data Analysis to explain data in detail, then Features Selection to reduce dimensionality of data for Modeling step. 
+
+## Data Integration
+
+ Data | Component | Shape |
+| ----------- | ----------- | ----------- | 
+| [SASS_99_00_S2a_v1_0.csv](../data/SASS_1999-00_TFS_2000-01_v1_0_CSV_Datasets/SASS_99_00_S2a_v1_0.csv) | Public Principal | (1582, 473) | 
+| [SASS_99_00_S3a_v1_0.csv](../data/SASS_1999-00_TFS_2000-01_v1_0_CSV_Datasets/SASS_99_00_S3a_v1_0.csv) | Public School | (2309, 814) | 
+| [SASS_99_00_S4a_v1_0.csv](../data/SASS_1999-00_TFS_2000-01_v1_0_CSV_Datasets/SASS_99_00_S4a_v1_0.csv) | Public Teacher | (3912, 1335) | 
+| [SASS_99_00_T2_v1_0.csv](../data/SASS_1999-00_TFS_2000-01_v1_0_CSV_Datasets/SASS_99_00_T2_v1_0.csv) | Former Teacher | (1679, 404) | 
+| [SASS_99_00_T3_v1_0.csv](../data/SASS_1999-00_TFS_2000-01_v1_0_CSV_Datasets/SASS_99_00_T3_v1_0.csv) | Current Teacher | (2477, 618) | 
+
+- [Data_Integration.ipynb](processing/Data_Integration.ipynb): All cleaned data are integrated into single dataframe (3640, 128)
+  - Labeling: Teachers from TFS Former Teacher (T2) survey are "Former Teacher", and Teachers from TFS Current Teacher (T3) survey are "Current Teacher"
+  - Data have 124 attributes (excluding 3 control numbers) with 107 categorical attributes, and 17 numerical attributes for the 3640 teachers (2176 current, 1464 former teachers).
+
+## Exploratory Data Analysis
+- [EDA.ipynb](processing/EDA.ipynb)
+   1. Number of teachers, schools
+    1. Teacher retention per region
+    1. Public Teacher: General, Demographic information 
+        - gender, gender, race/ethnicity
+        -  marriage, earning, dependents, union
+    1. Public Teacher: Education and Training 
+        - degree, major(STEM)
+        -  certificaiton
+    1. Public Teacher: Teaching Experience
+        - years, new teacher, subjects(STEM), grades
+        -  class organization, full-time/part-time
+    1. Public School: General information 
+        - type, level, urbanicity, minority students
+        -  minority teachers, student-teacher Ratio
+    1. Public School: Poverty Proxy 
+        - Title 1
+        -  FRPL, NLP
+    1. Public Principal: Demographic information 
+        - age, race/ethnicity
+        -  gender, degree, salary
+    1. Public Principal: Teaching and Training
+        - years of experience
+    1.  Public District (available from Public School): Incentive Policy
+
+## Feature Selection
+- [Feature_Selection_1.ipynb](processing/Feature_Selection_1.ipynb): Data set is reduced (3640, 53)s with 39 categorical and 14 numerical using correlation filtering 
+- [Feature_Selection_2.ipynb](processing/Feature_Selection_2.ipynb): 9 approaches were used to score feature importance automatically and select the best features predicting Teacher Attrition:
+* Filter Methods
+	* Variance Threshold
+* Embedded Methods
+	* L1 Regularized Logistic Regression (Lasso)
+	* Random Forest Feature Importance
+* Wrapper Methods
+	* Recursive Feature Elimination (RFE) with Random Forest
+	* Recursive Feature Elimination (RFE) with Ridge Regression
+	* Permutation Importance with Random Forest
+	* Permutation Importance with Ridge Regression
+	* Sequential Feature Selection (SFS) with KNN
+	* Sequential Feature Selection (SFS) with Ridge Regression
+
+# Modeling
+Prediction modeling and analysis on Teacher Attrition due to COVID-19 in math and reading go through 4 phases: State-of-an-art modeling, Gradient boosting modeling, Teacher attrition prediction analysis for unlabeled data, and Gradient boosting experimenting with raw data.
+
+## State-of-an-art modeling 
+* 5 models were trained to predict Teacher Attrition in [Modeling_BL.ipynb](modeling/Modeling_BL.ipynb) with comparing 10 feature sets selected from [Feature_Selection_2.ipynb](processing/Feature_Selection_2.ipynb)
+  * Ridge Regression
+  * SVM (Linear, Kernel)
+  * KNN
+  * Random Forest
+  * Grandient Boosting
+
+## Advanced gradient boosting modeling 
+* 4 models were trained to predict Teacher Attrition in [Modeling_GB.ipynb](modeling/Modeling_GB.ipynb) with comparing 10 feature sets selected from [Feature_Selection_2.ipynb](processing/Feature_Selection_2.ipynb)
+  * XGBoost
+  * LightGBM
+  * CatBoost
+  * HistGradientBoost
+
+## Teacher attrition prediction analysis for unlabeled data
+* Unlabeled data have been integrated to predict Teacher Attrition for teachers whom did not participate TFS in [Unlabeled_Data_Integration.ipynb](modeling/Unlabeled_Data_Integration.ipynb)
+* Teacher Attrition is predicted with the unlabeled data using the best gradient boosting model in [Unlabeled_Modeling_GB.ipynb](modeling/Unlabeled_Modeling_GB.ipynb)
+
+## ExperimentinggGradient boosting models with raw data.
+* The same 4 models were trained using raw data without feature engineering in [Modeling_NA_GB.ipynb](modeling/Modeling_NA_GB.ipynb) 
