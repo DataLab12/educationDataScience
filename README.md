@@ -47,7 +47,19 @@ _Data Science Pipeline developed for the [Identifying Resilience Factors in Texa
   2. Run Anaconda Prompt app with administrative privileges
      * make sure all the conda packages are up to date: ```conda update --all```
        * answer Yes to install all packages   
-     * install needed packages as follows <TODO>
+     * install/check versions of needed packages (as of October 31, 2022)
+        * Python: 3.10.4 
+        * IPython: 8.4.0
+        * pandas: 1.4.3
+        * NumPy: 1.23.1
+        * matplotlib: 3.5.2
+        * seaborn: 0.11.2
+        * mlxtend: 0.20.0
+        * SciPy: 1.9.1
+        * Scikit-learn: 1.1.1
+        * XGBoost: 1.6.2
+        * LightGBM: 3.2.1
+        * CatBoost: 1.0.6
   3. close the anaconda prompt and open it up as a regular user , type ```>>jupyter notebook```
-     * navigate in the browser to this folder and double click on the [JointDashboard.ipynb](JointDashboardh.ipynb) or [District_CountyDashboard.ipynb](District_CountyDashboard.ipynb) to open them (separate windows will open)
+     * navigate in the browser to this folder and double click on any file with the _ipynb_ extension listed above to open them (separate windows will open)
      * in separate windows, click `Cell` on the top taskbar and then `Run All`. This will open the the tabbed dashboard.
