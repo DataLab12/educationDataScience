@@ -5,7 +5,7 @@ Cleaning all raw data
 Project related documents
 
 ## [src/processing](src/processing)
-Raw data were collected and cleaned from 8 different sources under [data](../data) folder, each subfolder indicates data source. Integrated data go through  Exploratory Data Analysis to explain data in detail, then Features Selection to reduce dimensionality of data for Modeling step. 
+Raw data were collected and cleaned from 8 different sources under [data](data) folder, each subfolder indicates data source. Integrated data go through  Exploratory Data Analysis to explain data in detail, then Features Selection to reduce dimensionality of data for Modeling step. 
 
 ### Data Integration
 
@@ -43,19 +43,20 @@ Raw data were collected and cleaned from 8 different sources under [data](../dat
 ### Feature Selection
 - [Feature_Selection_Math.ipynb](src/processing/Feature_Selection_Math.ipynb) 
 - [Feature_Selection_Reading.ipynb](src/processing/Feature_Selection_Reading.ipynb)
-    9 methods were used to score feature importance automatically and select the best features predicting Learning Loss:
-    * Filter Methods
-    	* Variance Threshold
-    * Embedded Methods
-    	* L1 Regularized Logistic Regression (Lasso)
-    	* Random Forest Feature Importance
-    * Wrapper Methods
-    	* Recursive Feature Elimination (RFE) with Random Forest
-    	* Recursive Feature Elimination (RFE) with Ridge Regression
-    	* Permutation Importance with Random Forest
-    	* Permutation Importance with Ridge Regression
-    	* Sequential Feature Selection (SFS) with KNN
-    	* Sequential Feature Selection (SFS) with Ridge Regression
+
+9 methods were used to score feature importance automatically and select the best features predicting Learning Loss:
+* Filter Methods
+	* Variance Threshold
+* Embedded Methods
+	* L1 Regularized Logistic Regression (Lasso)
+	* Random Forest Feature Importance
+* Wrapper Methods
+	* Recursive Feature Elimination (RFE) with Random Forest
+	* Recursive Feature Elimination (RFE) with Ridge Regression
+	* Permutation Importance with Random Forest
+	* Permutation Importance with Ridge Regression
+	* Sequential Feature Selection (SFS) with KNN
+	* Sequential Feature Selection (SFS) with Ridge Regression
 
 ## [src/modeling](src/modeling)
 Prediction modeling on Learning Loss due to COVID-19 in math and reading go through 3 phases: State-of-an-art modeling, Gradient boosting modeling, and Gradient boosting experimenting with missing values. First two phases compare 10 feature sets selected from [Feature_Selection_Math.ipynb](src/processing/Feature_Selection_Math.ipynb) and [Feature_Selection_Reading.ipynb](src/processing/Feature_Selection_Reading.ipynb), and the last phase experiments with raw data containing missing values.
