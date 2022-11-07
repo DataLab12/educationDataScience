@@ -60,7 +60,7 @@ Cleaned raw data are saved under [data_clean](data/data_clean) folder. Integrate
 	* Sequential Feature Selection (SFS) with KNN
 	* Sequential Feature Selection (SFS) with Ridge Regression
 
-## [modeling](src/modeling)
+## [src/modeling](src/modeling)
 Prediction modeling and analysis on Teacher Attrition due to COVID-19 in math and reading go through 4 phases: State-of-an-art modeling, Gradient boosting modeling, Teacher attrition prediction analysis for unlabeled data, and Gradient boosting experimenting with raw data.
 
 ### State-of-an-art modeling 
