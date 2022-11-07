@@ -25,27 +25,24 @@ Cleaned raw data are saved under [data_clean](data/data_clean) folder. Integrate
 - [EDA.ipynb](src/processing/EDA.ipynb)
    1. Number of teachers, schools
     1. Teacher retention per region
-    1. Public Teacher: General, Demographic information 
+    1. Public Teacher
         - gender, gender, race/ethnicity
-        -  marriage, earning, dependents, union
-    1. Public Teacher: Education and Training 
+        - marriage, earning, dependents, union
         - degree, major(STEM)
-        -  certificaiton
-    1. Public Teacher: Teaching Experience
+        - certificaiton
         - years, new teacher, subjects(STEM), grades
-        -  class organization, full-time/part-time
-    1. Public School: General information 
+        - class organization, full-time/part-time
+    1. Public School
         - type, level, urbanicity, minority students
-        -  minority teachers, student-teacher Ratio
-    1. Public School: Poverty Proxy 
+        - minority teachers, student-teacher Ratio
         - Title 1
-        -  FRPL, NLP
-    1. Public Principal: Demographic information 
+        - Free or Reduced-price Lunch (FRPL), National Lunch Program (NLP)
+    1. Public Principal
         - age, race/ethnicity
-        -  gender, degree, salary
-    1. Public Principal: Teaching and Training
+        - gender, degree, salary
         - years of experience
-    1.  Public District (available from Public School): Incentive Policy
+    1.  Public District (available from Public School)
+        - incentive Policy
 
 ### Feature Selection
 - [Feature_Selection_1.ipynb](src/processing/Feature_Selection_1.ipynb): Data set is reduced (3640, 53)s with 39 categorical and 14 numerical using correlation filtering 
