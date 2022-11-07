@@ -45,8 +45,8 @@ Cleaned raw data are saved under [data_clean](data/data_clean) folder. Integrate
         - incentive Policy
 
 ### Feature Selection
-- [Feature_Selection_1.ipynb](src/processing/Feature_Selection_1.ipynb): Data set is reduced (3640, 53)s with 39 categorical and 14 numerical using correlation filtering 
-- [Feature_Selection_2.ipynb](src/processing/Feature_Selection_2.ipynb): 9 approaches were used to score feature importance automatically and select the best features predicting Teacher Attrition:
+- [Feature_Selection_1.ipynb](src/processing/Feature_Selection_1.ipynb): Data set is reduced to (3640, 53) with 39 categorical and 14 numerical using correlation filtering 
+- [Feature_Selection_2.ipynb](src/processing/Feature_Selection_2.ipynb): 9 approaches below were used to score feature importance automatically and select the best features predicting Teacher Attrition:
 * Filter Methods
 	* Variance Threshold
 * Embedded Methods
