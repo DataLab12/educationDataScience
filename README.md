@@ -1,5 +1,5 @@
 # Tabular Data in the Wild: Gradient Boosting Modeling Improvement
-**Policy Planning and Identifying Weakest Links in Texas Public School System Using Public Data**
+**Gradient Boosting Public Data Modeling for the Policy Planning in Education**
 
 _Data Science Pipeline developed for the [Mitigating U.S. Public School Teacher Attrition Crisis](TeacherAttrition/docs/2022-DS-Poster-SASS.pdf) project_  by [June Yu](https://j-y-yu.github.io/), (data integration and modeling), [Li Feng](https://lifeng.wp.txstate.edu/) (domain expert), and [Jelena Tešić](jtesic.github.io) (project lead). 
 
