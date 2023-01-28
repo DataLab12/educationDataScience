@@ -1,0 +1,811 @@
+feature,model,coef,class
+Labor Force Diff,Logistic Regression - L1,0.0,Loss
+Employed Diff,Logistic Regression - L1,0.0,Loss
+Unemployed Level Diff,Logistic Regression - L1,0.0,Loss
+Unemployed Rate Diff,Logistic Regression - L1,0.0,Loss
+Median Age 10,Logistic Regression - L1,0.04049388187896119,Loss
+Median Age Male 10,Logistic Regression - L1,0.02984992092920205,Loss
+Median Age Female 10,Logistic Regression - L1,0.06930138395685352,Loss
+# of Households 10,Logistic Regression - L1,0.0,Loss
+Avg Household Size 10,Logistic Regression - L1,0.0,Loss
+# of Families 10,Logistic Regression - L1,0.0,Loss
+Avg Family Size 10,Logistic Regression - L1,0.0,Loss
+# of Housing Units 10,Logistic Regression - L1,0.0,Loss
+County Population,Logistic Regression - L1,0.0,Loss
+CARES ESSER I 20,Logistic Regression - L1,0.027414880654192134,Loss
+CRRSA ESSER II 21,Logistic Regression - L1,0.0,Loss
+ARP ESSER III 21,Logistic Regression - L1,0.0,Loss
+ESSER-SUPP 22,Logistic Regression - L1,0.0,Loss
+ESSER-SUPP 23,Logistic Regression - L1,0.0,Loss
+% County Infected 09/28/20,Logistic Regression - L1,-0.007074329646472935,Loss
+% County Deaths 09/28/20,Logistic Regression - L1,0.0,Loss
+% County Infected 10/30/20,Logistic Regression - L1,0.0,Loss
+% County Deaths 10/30/20,Logistic Regression - L1,0.0,Loss
+% County Infected 01/29/21,Logistic Regression - L1,0.0,Loss
+% County Deaths 01/29/21,Logistic Regression - L1,0.0,Loss
+% On Campus 09/28/20,Logistic Regression - L1,-0.34125114840105014,Loss
+% On Campus 10/30/20,Logistic Regression - L1,-0.4712382388521014,Loss
+% On Campus 01/29/21,Logistic Regression - L1,-0.3709632352571079,Loss
+% White Pop 10,Logistic Regression - L1,0.0,Loss
+% Black Pop 10,Logistic Regression - L1,0.0,Loss
+% Asian Pop 10,Logistic Regression - L1,0.0,Loss
+% Hispanic Pop 10,Logistic Regression - L1,0.0,Loss
+% Male Pop 10,Logistic Regression - L1,0.0,Loss
+% Female Pop 10,Logistic Regression - L1,0.0,Loss
+% Age 0-4 Pop 10,Logistic Regression - L1,0.0,Loss
+% Age 5-9 Pop 10,Logistic Regression - L1,0.0,Loss
+% Age 10-14 Pop 10,Logistic Regression - L1,0.0,Loss
+% Age 15-19 Pop 10,Logistic Regression - L1,-0.004314803187298083,Loss
+% Age 20-24 Pop 10,Logistic Regression - L1,-0.02532907694182092,Loss
+% Age 25-34 Pop 10,Logistic Regression - L1,0.0,Loss
+% Age 35-44 Pop 10,Logistic Regression - L1,0.032677264016546796,Loss
+% Age 45-54 Pop 10,Logistic Regression - L1,0.0,Loss
+% Age 55-64 Pop 10,Logistic Regression - L1,0.0,Loss
+% Age 65-74 Pop 10,Logistic Regression - L1,0.0,Loss
+% Age 75-84 Pop 10,Logistic Regression - L1,0.0,Loss
+% Age 85-Up Pop 10,Logistic Regression - L1,0.0,Loss
+% HH 1 Male 10,Logistic Regression - L1,0.0,Loss
+% HH 1 Female 10,Logistic Regression - L1,0.0,Loss
+% HH Married-Child 10,Logistic Regression - L1,0.0,Loss
+% HH Married-noChild 10,Logistic Regression - L1,0.0,Loss
+% HH Male-Child 10,Logistic Regression - L1,0.0,Loss
+% HH Female-Child 10,Logistic Regression - L1,0.0,Loss
+% Housing Vacant 10,Logistic Regression - L1,0.0,Loss
+% Housing Owner Occup 10,Logistic Regression - L1,0.0,Loss
+% Housing Renter Occup 10,Logistic Regression - L1,0.0,Loss
+Total Schools Diff,Logistic Regression - L1,0.0,Loss
+Total Students Diff,Logistic Regression - L1,0.0,Loss
+% Operational Schools Diff,Logistic Regression - L1,0.0,Loss
+% Title 1 School-wide Diff,Logistic Regression - L1,-0.04566939629824988,Loss
+% Title 1 Eligible Diff,Logistic Regression - L1,0.0,Loss
+Teachers:Students Diff,Logistic Regression - L1,0.059861227514587424,Loss
+Staff:Students Diff,Logistic Regression - L1,0.0,Loss
+% Free Lunch Diff,Logistic Regression - L1,0.0,Loss
+% Reduced-price Lunch Diff,Logistic Regression - L1,-0.03709196583876429,Loss
+% Asian Diff,Logistic Regression - L1,-0.14525820359911504,Loss
+% Hispanic Diff,Logistic Regression - L1,0.049158533817443374,Loss
+% Black Diff,Logistic Regression - L1,-0.055779989994803054,Loss
+% White Diff,Logistic Regression - L1,0.0,Loss
+% Grades 1-8 Diff,Logistic Regression - L1,0.1008553422347189,Loss
+% Grades 9-12 Diff,Logistic Regression - L1,0.0,Loss
+% Prek Diff,Logistic Regression - L1,0.0,Loss
+% Kinder Diff,Logistic Regression - L1,0.0,Loss
+% ADA Diff,Logistic Regression - L1,0.10899070894069203,Loss
+% Tested Math G3 Diff,Logistic Regression - L1,0.0,Loss
+% Tested Math G4 Diff,Logistic Regression - L1,0.0,Loss
+% Tested Math G5 Diff,Logistic Regression - L1,0.0,Loss
+% Tested Math G6 Diff,Logistic Regression - L1,-0.09215834760814094,Loss
+% Tested Math G7 Diff,Logistic Regression - L1,0.03785448523754256,Loss
+% Tested Math G8 Diff,Logistic Regression - L1,-0.008218035188621608,Loss
+Locale_11-City: Large,Logistic Regression - L1,0.09448009680587954,Loss
+Locale_12-City: Mid-size,Logistic Regression - L1,0.0,Loss
+Locale_13-City: Small,Logistic Regression - L1,-0.02959261155397426,Loss
+Locale_21-Suburb: Large,Logistic Regression - L1,0.0,Loss
+Locale_22-Suburb: Mid-size,Logistic Regression - L1,-0.05133823579871191,Loss
+Locale_23-Suburb: Small,Logistic Regression - L1,0.0,Loss
+Locale_31-Town: Fringe,Logistic Regression - L1,0.0,Loss
+Locale_32-Town: Distant,Logistic Regression - L1,0.0,Loss
+Locale_33-Town: Remote,Logistic Regression - L1,-0.04465077710240255,Loss
+Locale_41-Rural: Fringe,Logistic Regression - L1,-0.0677847182891241,Loss
+Locale_42-Rural: Distant,Logistic Regression - L1,0.0,Loss
+Locale_43-Rural: Remote,Logistic Regression - L1,0.0,Loss
+Labor Force Diff,Logistic Regression - L1,0.0,Expected
+Employed Diff,Logistic Regression - L1,0.0634895682165168,Expected
+Unemployed Level Diff,Logistic Regression - L1,-0.034368790271815365,Expected
+Unemployed Rate Diff,Logistic Regression - L1,0.0,Expected
+Median Age 10,Logistic Regression - L1,0.0,Expected
+Median Age Male 10,Logistic Regression - L1,0.0,Expected
+Median Age Female 10,Logistic Regression - L1,0.0,Expected
+# of Households 10,Logistic Regression - L1,0.0,Expected
+Avg Household Size 10,Logistic Regression - L1,0.0,Expected
+# of Families 10,Logistic Regression - L1,0.0,Expected
+Avg Family Size 10,Logistic Regression - L1,-0.038007953485773065,Expected
+# of Housing Units 10,Logistic Regression - L1,0.0,Expected
+County Population,Logistic Regression - L1,0.0,Expected
+CARES ESSER I 20,Logistic Regression - L1,0.0,Expected
+CRRSA ESSER II 21,Logistic Regression - L1,0.0,Expected
+ARP ESSER III 21,Logistic Regression - L1,0.0,Expected
+ESSER-SUPP 22,Logistic Regression - L1,0.06537442325607508,Expected
+ESSER-SUPP 23,Logistic Regression - L1,0.0,Expected
+% County Infected 09/28/20,Logistic Regression - L1,0.0,Expected
+% County Deaths 09/28/20,Logistic Regression - L1,0.0,Expected
+% County Infected 10/30/20,Logistic Regression - L1,-0.07847922129079589,Expected
+% County Deaths 10/30/20,Logistic Regression - L1,0.0,Expected
+% County Infected 01/29/21,Logistic Regression - L1,-0.0212507853153044,Expected
+% County Deaths 01/29/21,Logistic Regression - L1,0.0,Expected
+% On Campus 09/28/20,Logistic Regression - L1,0.0,Expected
+% On Campus 10/30/20,Logistic Regression - L1,0.29185805684172306,Expected
+% On Campus 01/29/21,Logistic Regression - L1,0.11283478015227094,Expected
+% White Pop 10,Logistic Regression - L1,0.0,Expected
+% Black Pop 10,Logistic Regression - L1,0.08347351801857544,Expected
+% Asian Pop 10,Logistic Regression - L1,0.0,Expected
+% Hispanic Pop 10,Logistic Regression - L1,0.0,Expected
+% Male Pop 10,Logistic Regression - L1,0.0013978060156616568,Expected
+% Female Pop 10,Logistic Regression - L1,-0.0015336742511164213,Expected
+% Age 0-4 Pop 10,Logistic Regression - L1,0.0,Expected
+% Age 5-9 Pop 10,Logistic Regression - L1,0.0,Expected
+% Age 10-14 Pop 10,Logistic Regression - L1,0.0,Expected
+% Age 15-19 Pop 10,Logistic Regression - L1,0.0,Expected
+% Age 20-24 Pop 10,Logistic Regression - L1,0.0678692851065839,Expected
+% Age 25-34 Pop 10,Logistic Regression - L1,0.0,Expected
+% Age 35-44 Pop 10,Logistic Regression - L1,0.0,Expected
+% Age 45-54 Pop 10,Logistic Regression - L1,0.0,Expected
+% Age 55-64 Pop 10,Logistic Regression - L1,0.0,Expected
+% Age 65-74 Pop 10,Logistic Regression - L1,0.0,Expected
+% Age 75-84 Pop 10,Logistic Regression - L1,0.0,Expected
+% Age 85-Up Pop 10,Logistic Regression - L1,0.0,Expected
+% HH 1 Male 10,Logistic Regression - L1,-0.007303834380902986,Expected
+% HH 1 Female 10,Logistic Regression - L1,0.0,Expected
+% HH Married-Child 10,Logistic Regression - L1,0.0,Expected
+% HH Married-noChild 10,Logistic Regression - L1,0.0,Expected
+% HH Male-Child 10,Logistic Regression - L1,0.041424196434944105,Expected
+% HH Female-Child 10,Logistic Regression - L1,0.00043996488683689845,Expected
+% Housing Vacant 10,Logistic Regression - L1,0.0,Expected
+% Housing Owner Occup 10,Logistic Regression - L1,0.0,Expected
+% Housing Renter Occup 10,Logistic Regression - L1,0.0,Expected
+Total Schools Diff,Logistic Regression - L1,0.0,Expected
+Total Students Diff,Logistic Regression - L1,0.0,Expected
+% Operational Schools Diff,Logistic Regression - L1,0.06152472060795254,Expected
+% Title 1 School-wide Diff,Logistic Regression - L1,0.028127509314318032,Expected
+% Title 1 Eligible Diff,Logistic Regression - L1,0.0,Expected
+Teachers:Students Diff,Logistic Regression - L1,-0.1329769502385483,Expected
+Staff:Students Diff,Logistic Regression - L1,-0.03509725157377698,Expected
+% Free Lunch Diff,Logistic Regression - L1,0.0,Expected
+% Reduced-price Lunch Diff,Logistic Regression - L1,0.035863750537572674,Expected
+% Asian Diff,Logistic Regression - L1,0.0,Expected
+% Hispanic Diff,Logistic Regression - L1,0.0,Expected
+% Black Diff,Logistic Regression - L1,0.04061043863374539,Expected
+% White Diff,Logistic Regression - L1,0.0,Expected
+% Grades 1-8 Diff,Logistic Regression - L1,-0.11732746493575048,Expected
+% Grades 9-12 Diff,Logistic Regression - L1,0.0,Expected
+% Prek Diff,Logistic Regression - L1,-0.020187983724336733,Expected
+% Kinder Diff,Logistic Regression - L1,0.0,Expected
+% ADA Diff,Logistic Regression - L1,-0.007717800091078778,Expected
+% Tested Math G3 Diff,Logistic Regression - L1,0.0,Expected
+% Tested Math G4 Diff,Logistic Regression - L1,-0.04346565893637622,Expected
+% Tested Math G5 Diff,Logistic Regression - L1,0.11096655582747343,Expected
+% Tested Math G6 Diff,Logistic Regression - L1,0.0,Expected
+% Tested Math G7 Diff,Logistic Regression - L1,-0.024101644776437406,Expected
+% Tested Math G8 Diff,Logistic Regression - L1,0.01465519365489,Expected
+Locale_11-City: Large,Logistic Regression - L1,-0.12170517083971079,Expected
+Locale_12-City: Mid-size,Logistic Regression - L1,0.0,Expected
+Locale_13-City: Small,Logistic Regression - L1,0.0,Expected
+Locale_21-Suburb: Large,Logistic Regression - L1,0.0,Expected
+Locale_22-Suburb: Mid-size,Logistic Regression - L1,0.1258921641487204,Expected
+Locale_23-Suburb: Small,Logistic Regression - L1,0.08506394474169766,Expected
+Locale_31-Town: Fringe,Logistic Regression - L1,0.0,Expected
+Locale_32-Town: Distant,Logistic Regression - L1,0.0,Expected
+Locale_33-Town: Remote,Logistic Regression - L1,0.0,Expected
+Locale_41-Rural: Fringe,Logistic Regression - L1,0.054862541622011575,Expected
+Locale_42-Rural: Distant,Logistic Regression - L1,-0.14695145321913794,Expected
+Locale_43-Rural: Remote,Logistic Regression - L1,-0.07683759393262363,Expected
+Labor Force Diff,Logistic Regression - L1,-0.09558058059648292,Gain
+Employed Diff,Logistic Regression - L1,0.0,Gain
+Unemployed Level Diff,Logistic Regression - L1,0.0,Gain
+Unemployed Rate Diff,Logistic Regression - L1,0.0,Gain
+Median Age 10,Logistic Regression - L1,0.0,Gain
+Median Age Male 10,Logistic Regression - L1,0.0,Gain
+Median Age Female 10,Logistic Regression - L1,0.0,Gain
+# of Households 10,Logistic Regression - L1,0.0,Gain
+Avg Household Size 10,Logistic Regression - L1,0.0,Gain
+# of Families 10,Logistic Regression - L1,0.0,Gain
+Avg Family Size 10,Logistic Regression - L1,0.0,Gain
+# of Housing Units 10,Logistic Regression - L1,0.0,Gain
+County Population,Logistic Regression - L1,0.0,Gain
+CARES ESSER I 20,Logistic Regression - L1,0.0,Gain
+CRRSA ESSER II 21,Logistic Regression - L1,0.0,Gain
+ARP ESSER III 21,Logistic Regression - L1,0.0,Gain
+ESSER-SUPP 22,Logistic Regression - L1,0.0,Gain
+ESSER-SUPP 23,Logistic Regression - L1,0.0,Gain
+% County Infected 09/28/20,Logistic Regression - L1,0.0,Gain
+% County Deaths 09/28/20,Logistic Regression - L1,0.0,Gain
+% County Infected 10/30/20,Logistic Regression - L1,0.10618163789741995,Gain
+% County Deaths 10/30/20,Logistic Regression - L1,0.0,Gain
+% County Infected 01/29/21,Logistic Regression - L1,0.0,Gain
+% County Deaths 01/29/21,Logistic Regression - L1,0.0,Gain
+% On Campus 09/28/20,Logistic Regression - L1,0.5880575670669688,Gain
+% On Campus 10/30/20,Logistic Regression - L1,0.003275697585783062,Gain
+% On Campus 01/29/21,Logistic Regression - L1,0.18820683819091277,Gain
+% White Pop 10,Logistic Regression - L1,0.0,Gain
+% Black Pop 10,Logistic Regression - L1,-0.09328868133583253,Gain
+% Asian Pop 10,Logistic Regression - L1,-0.10813163993421891,Gain
+% Hispanic Pop 10,Logistic Regression - L1,0.0,Gain
+% Male Pop 10,Logistic Regression - L1,0.0,Gain
+% Female Pop 10,Logistic Regression - L1,0.0,Gain
+% Age 0-4 Pop 10,Logistic Regression - L1,0.0,Gain
+% Age 5-9 Pop 10,Logistic Regression - L1,0.0,Gain
+% Age 10-14 Pop 10,Logistic Regression - L1,0.0,Gain
+% Age 15-19 Pop 10,Logistic Regression - L1,0.0,Gain
+% Age 20-24 Pop 10,Logistic Regression - L1,0.0,Gain
+% Age 25-34 Pop 10,Logistic Regression - L1,0.0,Gain
+% Age 35-44 Pop 10,Logistic Regression - L1,0.0,Gain
+% Age 45-54 Pop 10,Logistic Regression - L1,0.0,Gain
+% Age 55-64 Pop 10,Logistic Regression - L1,0.0,Gain
+% Age 65-74 Pop 10,Logistic Regression - L1,0.0,Gain
+% Age 75-84 Pop 10,Logistic Regression - L1,0.0,Gain
+% Age 85-Up Pop 10,Logistic Regression - L1,0.0,Gain
+% HH 1 Male 10,Logistic Regression - L1,0.0,Gain
+% HH 1 Female 10,Logistic Regression - L1,0.0,Gain
+% HH Married-Child 10,Logistic Regression - L1,0.0,Gain
+% HH Married-noChild 10,Logistic Regression - L1,0.0,Gain
+% HH Male-Child 10,Logistic Regression - L1,-0.0014120423243868395,Gain
+% HH Female-Child 10,Logistic Regression - L1,-0.049963323680923606,Gain
+% Housing Vacant 10,Logistic Regression - L1,0.0,Gain
+% Housing Owner Occup 10,Logistic Regression - L1,0.0,Gain
+% Housing Renter Occup 10,Logistic Regression - L1,0.0,Gain
+Total Schools Diff,Logistic Regression - L1,-0.005932337650787431,Gain
+Total Students Diff,Logistic Regression - L1,0.0,Gain
+% Operational Schools Diff,Logistic Regression - L1,-0.06536726835567334,Gain
+% Title 1 School-wide Diff,Logistic Regression - L1,0.0,Gain
+% Title 1 Eligible Diff,Logistic Regression - L1,-0.0382555492838988,Gain
+Teachers:Students Diff,Logistic Regression - L1,0.07077742741255837,Gain
+Staff:Students Diff,Logistic Regression - L1,0.060058864938904395,Gain
+% Free Lunch Diff,Logistic Regression - L1,0.0,Gain
+% Reduced-price Lunch Diff,Logistic Regression - L1,0.0,Gain
+% Asian Diff,Logistic Regression - L1,0.08199193366581115,Gain
+% Hispanic Diff,Logistic Regression - L1,-0.01744678881862373,Gain
+% Black Diff,Logistic Regression - L1,0.0,Gain
+% White Diff,Logistic Regression - L1,0.0,Gain
+% Grades 1-8 Diff,Logistic Regression - L1,0.0,Gain
+% Grades 9-12 Diff,Logistic Regression - L1,-0.037723655932879706,Gain
+% Prek Diff,Logistic Regression - L1,0.029559286782348104,Gain
+% Kinder Diff,Logistic Regression - L1,0.0,Gain
+% ADA Diff,Logistic Regression - L1,0.0,Gain
+% Tested Math G3 Diff,Logistic Regression - L1,0.013729148564400797,Gain
+% Tested Math G4 Diff,Logistic Regression - L1,0.0,Gain
+% Tested Math G5 Diff,Logistic Regression - L1,0.0,Gain
+% Tested Math G6 Diff,Logistic Regression - L1,0.017641536117863375,Gain
+% Tested Math G7 Diff,Logistic Regression - L1,0.0,Gain
+% Tested Math G8 Diff,Logistic Regression - L1,0.0,Gain
+Locale_11-City: Large,Logistic Regression - L1,0.0,Gain
+Locale_12-City: Mid-size,Logistic Regression - L1,-0.01456479276782035,Gain
+Locale_13-City: Small,Logistic Regression - L1,0.0,Gain
+Locale_21-Suburb: Large,Logistic Regression - L1,-0.11712820389489836,Gain
+Locale_22-Suburb: Mid-size,Logistic Regression - L1,-0.03227840454053321,Gain
+Locale_23-Suburb: Small,Logistic Regression - L1,-0.029140063003808284,Gain
+Locale_31-Town: Fringe,Logistic Regression - L1,0.0,Gain
+Locale_32-Town: Distant,Logistic Regression - L1,0.0,Gain
+Locale_33-Town: Remote,Logistic Regression - L1,0.0,Gain
+Locale_41-Rural: Fringe,Logistic Regression - L1,0.0,Gain
+Locale_42-Rural: Distant,Logistic Regression - L1,0.05568342079881018,Gain
+Locale_43-Rural: Remote,Logistic Regression - L1,0.0,Gain
+Labor Force Diff,Logistic Regression - L2,-0.107214978742641,Loss
+Employed Diff,Logistic Regression - L2,0.10513535426205903,Loss
+Unemployed Level Diff,Logistic Regression - L2,-0.030075019813210323,Loss
+Unemployed Rate Diff,Logistic Regression - L2,0.13296832996440394,Loss
+Median Age 10,Logistic Regression - L2,0.06007832246089503,Loss
+Median Age Male 10,Logistic Regression - L2,0.05834990403977753,Loss
+Median Age Female 10,Logistic Regression - L2,0.0614220564168825,Loss
+# of Households 10,Logistic Regression - L2,0.01964684000092645,Loss
+Avg Household Size 10,Logistic Regression - L2,0.05065612708569105,Loss
+# of Families 10,Logistic Regression - L2,-0.018151136306557143,Loss
+Avg Family Size 10,Logistic Regression - L2,0.058877536743708825,Loss
+# of Housing Units 10,Logistic Regression - L2,0.017828059867718703,Loss
+County Population,Logistic Regression - L2,0.005413289509772712,Loss
+CARES ESSER I 20,Logistic Regression - L2,0.10438000871579711,Loss
+CRRSA ESSER II 21,Logistic Regression - L2,0.04902521086359566,Loss
+ARP ESSER III 21,Logistic Regression - L2,0.035829969981298754,Loss
+ESSER-SUPP 22,Logistic Regression - L2,-0.05200500130310596,Loss
+ESSER-SUPP 23,Logistic Regression - L2,-0.05142895689698031,Loss
+% County Infected 09/28/20,Logistic Regression - L2,-0.13814753177463854,Loss
+% County Deaths 09/28/20,Logistic Regression - L2,0.02398095979619216,Loss
+% County Infected 10/30/20,Logistic Regression - L2,-0.021485736623577372,Loss
+% County Deaths 10/30/20,Logistic Regression - L2,0.00974328875997191,Loss
+% County Infected 01/29/21,Logistic Regression - L2,0.11992155911065366,Loss
+% County Deaths 01/29/21,Logistic Regression - L2,-0.023161254029966535,Loss
+% On Campus 09/28/20,Logistic Regression - L2,-0.4219917558261206,Loss
+% On Campus 10/30/20,Logistic Regression - L2,-0.588687687380768,Loss
+% On Campus 01/29/21,Logistic Regression - L2,-0.36743047774872556,Loss
+% White Pop 10,Logistic Regression - L2,0.027923737950896824,Loss
+% Black Pop 10,Logistic Regression - L2,0.0036015574345379703,Loss
+% Asian Pop 10,Logistic Regression - L2,-0.05276527693230285,Loss
+% Hispanic Pop 10,Logistic Regression - L2,-0.062287817603594794,Loss
+% Male Pop 10,Logistic Regression - L2,-0.09231985072234557,Loss
+% Female Pop 10,Logistic Regression - L2,0.09231985072235502,Loss
+% Age 0-4 Pop 10,Logistic Regression - L2,-0.08181552491260422,Loss
+% Age 5-9 Pop 10,Logistic Regression - L2,-0.2660880481703433,Loss
+% Age 10-14 Pop 10,Logistic Regression - L2,0.12559455175786607,Loss
+% Age 15-19 Pop 10,Logistic Regression - L2,-0.049709946135627445,Loss
+% Age 20-24 Pop 10,Logistic Regression - L2,-0.04724132547137876,Loss
+% Age 25-34 Pop 10,Logistic Regression - L2,0.0460768885544923,Loss
+% Age 35-44 Pop 10,Logistic Regression - L2,0.36654785377857335,Loss
+% Age 45-54 Pop 10,Logistic Regression - L2,-0.17479735944117877,Loss
+% Age 55-64 Pop 10,Logistic Regression - L2,0.0050290239219913995,Loss
+% Age 65-74 Pop 10,Logistic Regression - L2,-0.07600239011688825,Loss
+% Age 75-84 Pop 10,Logistic Regression - L2,-0.01010656253151855,Loss
+% Age 85-Up Pop 10,Logistic Regression - L2,0.08558210992536039,Loss
+% HH 1 Male 10,Logistic Regression - L2,-0.20948297090488457,Loss
+% HH 1 Female 10,Logistic Regression - L2,0.10856714772586104,Loss
+% HH Married-Child 10,Logistic Regression - L2,-0.011616864002451266,Loss
+% HH Married-noChild 10,Logistic Regression - L2,-0.13917046653445764,Loss
+% HH Male-Child 10,Logistic Regression - L2,-0.02285904363655358,Loss
+% HH Female-Child 10,Logistic Regression - L2,-0.09196508768000046,Loss
+% Housing Vacant 10,Logistic Regression - L2,0.23697891040269467,Loss
+% Housing Owner Occup 10,Logistic Regression - L2,-0.04245678602657291,Loss
+% Housing Renter Occup 10,Logistic Regression - L2,-0.17038123001832162,Loss
+Total Schools Diff,Logistic Regression - L2,-0.05269186931968045,Loss
+Total Students Diff,Logistic Regression - L2,0.17294718549073498,Loss
+% Operational Schools Diff,Logistic Regression - L2,0.024679821616503686,Loss
+% Title 1 School-wide Diff,Logistic Regression - L2,-0.22800560194903924,Loss
+% Title 1 Eligible Diff,Logistic Regression - L2,0.1274574557279409,Loss
+Teachers:Students Diff,Logistic Regression - L2,0.16969163190203163,Loss
+Staff:Students Diff,Logistic Regression - L2,0.02268720343077591,Loss
+% Free Lunch Diff,Logistic Regression - L2,0.017901980743873194,Loss
+% Reduced-price Lunch Diff,Logistic Regression - L2,-0.13167474125179388,Loss
+% Asian Diff,Logistic Regression - L2,-0.2975796829046006,Loss
+% Hispanic Diff,Logistic Regression - L2,0.14183220780772754,Loss
+% Black Diff,Logistic Regression - L2,-0.16092142425063405,Loss
+% White Diff,Logistic Regression - L2,0.015339092186228484,Loss
+% Grades 1-8 Diff,Logistic Regression - L2,0.27414489031384454,Loss
+% Grades 9-12 Diff,Logistic Regression - L2,0.16505314627077688,Loss
+% Prek Diff,Logistic Regression - L2,-0.09580298274742091,Loss
+% Kinder Diff,Logistic Regression - L2,0.04373674639183809,Loss
+% ADA Diff,Logistic Regression - L2,0.15486152032678205,Loss
+% Tested Math G3 Diff,Logistic Regression - L2,-0.030016990628735325,Loss
+% Tested Math G4 Diff,Logistic Regression - L2,0.05852460154172891,Loss
+% Tested Math G5 Diff,Logistic Regression - L2,-0.05979801117482217,Loss
+% Tested Math G6 Diff,Logistic Regression - L2,-0.1627800779051098,Loss
+% Tested Math G7 Diff,Logistic Regression - L2,0.08705328511605483,Loss
+% Tested Math G8 Diff,Logistic Regression - L2,-0.08237423550564961,Loss
+Locale_11-City: Large,Logistic Regression - L2,0.12819765238842096,Loss
+Locale_12-City: Mid-size,Logistic Regression - L2,0.03948450674107269,Loss
+Locale_13-City: Small,Logistic Regression - L2,-0.11407314079535633,Loss
+Locale_21-Suburb: Large,Logistic Regression - L2,-0.026529284529489574,Loss
+Locale_22-Suburb: Mid-size,Logistic Regression - L2,-0.16820175923845715,Loss
+Locale_23-Suburb: Small,Logistic Regression - L2,-0.09611663885367203,Loss
+Locale_31-Town: Fringe,Logistic Regression - L2,-0.004691951235271723,Loss
+Locale_32-Town: Distant,Logistic Regression - L2,0.013065776184959233,Loss
+Locale_33-Town: Remote,Logistic Regression - L2,-0.15104459948672766,Loss
+Locale_41-Rural: Fringe,Logistic Regression - L2,-0.12321542995564613,Loss
+Locale_42-Rural: Distant,Logistic Regression - L2,0.14091383795744827,Loss
+Locale_43-Rural: Remote,Logistic Regression - L2,0.08627698277376382,Loss
+Labor Force Diff,Logistic Regression - L2,0.13030466910624788,Expected
+Employed Diff,Logistic Regression - L2,0.04599802155783297,Expected
+Unemployed Level Diff,Logistic Regression - L2,-0.11622159589837995,Expected
+Unemployed Rate Diff,Logistic Regression - L2,-0.05705059332002038,Expected
+Median Age 10,Logistic Regression - L2,-0.016262450176648346,Expected
+Median Age Male 10,Logistic Regression - L2,-0.01726822943886887,Expected
+Median Age Female 10,Logistic Regression - L2,-0.015773302027319167,Expected
+# of Households 10,Logistic Regression - L2,-0.03295869055834619,Expected
+Avg Household Size 10,Logistic Regression - L2,-0.016509427731561794,Expected
+# of Families 10,Logistic Regression - L2,0.011556740529534306,Expected
+Avg Family Size 10,Logistic Regression - L2,-0.025906984581208305,Expected
+# of Housing Units 10,Logistic Regression - L2,-0.02955344937484925,Expected
+County Population,Logistic Regression - L2,-0.027293793524116133,Expected
+CARES ESSER I 20,Logistic Regression - L2,-0.08294931093312798,Expected
+CRRSA ESSER II 21,Logistic Regression - L2,-0.02609699833850734,Expected
+ARP ESSER III 21,Logistic Regression - L2,0.011235308819786505,Expected
+ESSER-SUPP 22,Logistic Regression - L2,0.08421944299888787,Expected
+ESSER-SUPP 23,Logistic Regression - L2,0.08214610649633845,Expected
+% County Infected 09/28/20,Logistic Regression - L2,-0.03713116301265241,Expected
+% County Deaths 09/28/20,Logistic Regression - L2,-0.0166985380413743,Expected
+% County Infected 10/30/20,Logistic Regression - L2,-0.24317833381245516,Expected
+% County Deaths 10/30/20,Logistic Regression - L2,0.02317398492895518,Expected
+% County Infected 01/29/21,Logistic Regression - L2,-0.1289068980833247,Expected
+% County Deaths 01/29/21,Logistic Regression - L2,0.04199057659710019,Expected
+% On Campus 09/28/20,Logistic Regression - L2,0.09115781873333056,Expected
+% On Campus 10/30/20,Logistic Regression - L2,0.3809308217494398,Expected
+% On Campus 01/29/21,Logistic Regression - L2,0.14279347582671892,Expected
+% White Pop 10,Logistic Regression - L2,-0.038841703316194166,Expected
+% Black Pop 10,Logistic Regression - L2,0.15618777083384688,Expected
+% Asian Pop 10,Logistic Regression - L2,0.17641325288897966,Expected
+% Hispanic Pop 10,Logistic Regression - L2,0.1803891420787565,Expected
+% Male Pop 10,Logistic Regression - L2,0.10645440110994381,Expected
+% Female Pop 10,Logistic Regression - L2,-0.1064544011099474,Expected
+% Age 0-4 Pop 10,Logistic Regression - L2,-0.021567678981932268,Expected
+% Age 5-9 Pop 10,Logistic Regression - L2,0.09065543518080861,Expected
+% Age 10-14 Pop 10,Logistic Regression - L2,-0.2326156404477801,Expected
+% Age 15-19 Pop 10,Logistic Regression - L2,0.02866896333533397,Expected
+% Age 20-24 Pop 10,Logistic Regression - L2,0.11445381136237252,Expected
+% Age 25-34 Pop 10,Logistic Regression - L2,-0.15751355209175016,Expected
+% Age 35-44 Pop 10,Logistic Regression - L2,-0.12894899287695782,Expected
+% Age 45-54 Pop 10,Logistic Regression - L2,0.12447331248464868,Expected
+% Age 55-64 Pop 10,Logistic Regression - L2,0.02230303865598349,Expected
+% Age 65-74 Pop 10,Logistic Regression - L2,0.05847750493402202,Expected
+% Age 75-84 Pop 10,Logistic Regression - L2,0.10690468962312011,Expected
+% Age 85-Up Pop 10,Logistic Regression - L2,-0.04877841156282801,Expected
+% HH 1 Male 10,Logistic Regression - L2,-0.1296136727772928,Expected
+% HH 1 Female 10,Logistic Regression - L2,-0.10769233473060684,Expected
+% HH Married-Child 10,Logistic Regression - L2,0.022708069930613934,Expected
+% HH Married-noChild 10,Logistic Regression - L2,0.13843230540347828,Expected
+% HH Male-Child 10,Logistic Regression - L2,0.20473157262596187,Expected
+% HH Female-Child 10,Logistic Regression - L2,0.1883033188948887,Expected
+% Housing Vacant 10,Logistic Regression - L2,-0.14694944357693943,Expected
+% Housing Owner Occup 10,Logistic Regression - L2,-0.07361367672596729,Expected
+% Housing Renter Occup 10,Logistic Regression - L2,0.18645115655086247,Expected
+Total Schools Diff,Logistic Regression - L2,0.14216963916051212,Expected
+Total Students Diff,Logistic Regression - L2,-0.17165275235795693,Expected
+% Operational Schools Diff,Logistic Regression - L2,0.14102029465386856,Expected
+% Title 1 School-wide Diff,Logistic Regression - L2,0.08316134713999339,Expected
+% Title 1 Eligible Diff,Logistic Regression - L2,0.05265480028165338,Expected
+Teachers:Students Diff,Logistic Regression - L2,-0.20472204049688192,Expected
+Staff:Students Diff,Logistic Regression - L2,-0.11845254079479826,Expected
+% Free Lunch Diff,Logistic Regression - L2,0.004393504177250024,Expected
+% Reduced-price Lunch Diff,Logistic Regression - L2,0.12325312110773955,Expected
+% Asian Diff,Logistic Regression - L2,0.03261313748975111,Expected
+% Hispanic Diff,Logistic Regression - L2,-0.0265986345123877,Expected
+% Black Diff,Logistic Regression - L2,0.11208311744877017,Expected
+% White Diff,Logistic Regression - L2,-0.09015890946002558,Expected
+% Grades 1-8 Diff,Logistic Regression - L2,-0.2644242844518343,Expected
+% Grades 9-12 Diff,Logistic Regression - L2,-0.05552172282734554,Expected
+% Prek Diff,Logistic Regression - L2,-0.10519388801163507,Expected
+% Kinder Diff,Logistic Regression - L2,-0.04663601856206463,Expected
+% ADA Diff,Logistic Regression - L2,-0.08431942279161396,Expected
+% Tested Math G3 Diff,Logistic Regression - L2,-0.04876503068081902,Expected
+% Tested Math G4 Diff,Logistic Regression - L2,-0.15431636501250418,Expected
+% Tested Math G5 Diff,Logistic Regression - L2,0.24174972411497112,Expected
+% Tested Math G6 Diff,Logistic Regression - L2,0.04739889610940179,Expected
+% Tested Math G7 Diff,Logistic Regression - L2,-0.2537618895825838,Expected
+% Tested Math G8 Diff,Logistic Regression - L2,0.08947016327110659,Expected
+Locale_11-City: Large,Logistic Regression - L2,-0.03888880689517005,Expected
+Locale_12-City: Mid-size,Logistic Regression - L2,0.0709382973646566,Expected
+Locale_13-City: Small,Logistic Regression - L2,0.01845555890136542,Expected
+Locale_21-Suburb: Large,Logistic Regression - L2,0.13600720631021176,Expected
+Locale_22-Suburb: Mid-size,Logistic Regression - L2,0.21125157441164774,Expected
+Locale_23-Suburb: Small,Logistic Regression - L2,0.2022172975983139,Expected
+Locale_31-Town: Fringe,Logistic Regression - L2,-0.009504927404253878,Expected
+Locale_32-Town: Distant,Logistic Regression - L2,-0.06693623997357377,Expected
+Locale_33-Town: Remote,Logistic Regression - L2,0.0852231114741174,Expected
+Locale_41-Rural: Fringe,Logistic Regression - L2,0.09991061507281704,Expected
+Locale_42-Rural: Distant,Logistic Regression - L2,-0.2072491466619219,Expected
+Locale_43-Rural: Remote,Logistic Regression - L2,-0.09635494348121797,Expected
+Labor Force Diff,Logistic Regression - L2,-0.06051492427146551,Gain
+Employed Diff,Logistic Regression - L2,-0.14007672083146783,Gain
+Unemployed Level Diff,Logistic Regression - L2,0.05415803308935499,Gain
+Unemployed Rate Diff,Logistic Regression - L2,-0.012265250043473081,Gain
+Median Age 10,Logistic Regression - L2,-0.020740582379913535,Gain
+Median Age Male 10,Logistic Regression - L2,-0.01641781510831871,Gain
+Median Age Female 10,Logistic Regression - L2,-0.02383356978051753,Gain
+# of Households 10,Logistic Regression - L2,0.022501844151188638,Gain
+Avg Household Size 10,Logistic Regression - L2,-0.01777030786801342,Gain
+# of Families 10,Logistic Regression - L2,0.006917469671671641,Gain
+Avg Family Size 10,Logistic Regression - L2,-0.015540556374901825,Gain
+# of Housing Units 10,Logistic Regression - L2,0.023475579315689186,Gain
+County Population,Logistic Regression - L2,0.023474735448538883,Gain
+CARES ESSER I 20,Logistic Regression - L2,-0.18526591545691515,Gain
+CRRSA ESSER II 21,Logistic Regression - L2,-0.19557724179327984,Gain
+ARP ESSER III 21,Logistic Regression - L2,-0.20357860842338574,Gain
+ESSER-SUPP 22,Logistic Regression - L2,-0.08290989881015981,Gain
+ESSER-SUPP 23,Logistic Regression - L2,-0.08203411502178218,Gain
+% County Infected 09/28/20,Logistic Regression - L2,0.19289248151905294,Gain
+% County Deaths 09/28/20,Logistic Regression - L2,0.017405473388389138,Gain
+% County Infected 10/30/20,Logistic Regression - L2,0.22627713171059663,Gain
+% County Deaths 10/30/20,Logistic Regression - L2,-0.06654847908603859,Gain
+% County Infected 01/29/21,Logistic Regression - L2,0.004426866205247872,Gain
+% County Deaths 01/29/21,Logistic Regression - L2,-0.013997746316519536,Gain
+% On Campus 09/28/20,Logistic Regression - L2,0.3940877174626412,Gain
+% On Campus 10/30/20,Logistic Regression - L2,0.13819878910895142,Gain
+% On Campus 01/29/21,Logistic Regression - L2,0.23633323601606893,Gain
+% White Pop 10,Logistic Regression - L2,0.06221674171385246,Gain
+% Black Pop 10,Logistic Regression - L2,-0.17158577915552203,Gain
+% Asian Pop 10,Logistic Regression - L2,-0.2858298755437014,Gain
+% Hispanic Pop 10,Logistic Regression - L2,-0.10022904679690225,Gain
+% Male Pop 10,Logistic Regression - L2,-0.0807447428241867,Gain
+% Female Pop 10,Logistic Regression - L2,0.08074474282419596,Gain
+% Age 0-4 Pop 10,Logistic Regression - L2,-0.022929450157131295,Gain
+% Age 5-9 Pop 10,Logistic Regression - L2,0.09266768360926532,Gain
+% Age 10-14 Pop 10,Logistic Regression - L2,0.14851431586205327,Gain
+% Age 15-19 Pop 10,Logistic Regression - L2,-0.015132801641841089,Gain
+% Age 20-24 Pop 10,Logistic Regression - L2,-0.07796299763289759,Gain
+% Age 25-34 Pop 10,Logistic Regression - L2,0.16994942783330455,Gain
+% Age 35-44 Pop 10,Logistic Regression - L2,-0.058211185023972094,Gain
+% Age 45-54 Pop 10,Logistic Regression - L2,0.021105319685774594,Gain
+% Age 55-64 Pop 10,Logistic Regression - L2,-0.07103582714325365,Gain
+% Age 65-74 Pop 10,Logistic Regression - L2,0.01651983918149586,Gain
+% Age 75-84 Pop 10,Logistic Regression - L2,-0.15734537166062243,Gain
+% Age 85-Up Pop 10,Logistic Regression - L2,-0.025215661760569108,Gain
+% HH 1 Male 10,Logistic Regression - L2,0.2740266706196234,Gain
+% HH 1 Female 10,Logistic Regression - L2,0.03468713212423445,Gain
+% HH Married-Child 10,Logistic Regression - L2,-0.04549296276665358,Gain
+% HH Married-noChild 10,Logistic Regression - L2,-0.06826471785150748,Gain
+% HH Male-Child 10,Logistic Regression - L2,-0.22528907464988157,Gain
+% HH Female-Child 10,Logistic Regression - L2,-0.11857860321229848,Gain
+% Housing Vacant 10,Logistic Regression - L2,-0.001890556472010332,Gain
+% Housing Owner Occup 10,Logistic Regression - L2,0.09548126471882926,Gain
+% Housing Renter Occup 10,Logistic Regression - L2,-0.07556004360413607,Gain
+Total Schools Diff,Logistic Regression - L2,-0.1255273289003774,Gain
+Total Students Diff,Logistic Regression - L2,0.07283347472513253,Gain
+% Operational Schools Diff,Logistic Regression - L2,-0.15921181251040545,Gain
+% Title 1 School-wide Diff,Logistic Regression - L2,0.042649366519184426,Gain
+% Title 1 Eligible Diff,Logistic Regression - L2,-0.16529626495556649,Gain
+Teachers:Students Diff,Logistic Regression - L2,0.13552433700645206,Gain
+Staff:Students Diff,Logistic Regression - L2,0.11236643596140092,Gain
+% Free Lunch Diff,Logistic Regression - L2,-0.024022290916650244,Gain
+% Reduced-price Lunch Diff,Logistic Regression - L2,-0.016246185303315376,Gain
+% Asian Diff,Logistic Regression - L2,0.15349536480325102,Gain
+% Hispanic Diff,Logistic Regression - L2,-0.09663003305374634,Gain
+% Black Diff,Logistic Regression - L2,-0.007954958002818278,Gain
+% White Diff,Logistic Regression - L2,0.07441555760096928,Gain
+% Grades 1-8 Diff,Logistic Regression - L2,0.03146273910927308,Gain
+% Grades 9-12 Diff,Logistic Regression - L2,-0.1107949237356919,Gain
+% Prek Diff,Logistic Regression - L2,0.10578449340338938,Gain
+% Kinder Diff,Logistic Regression - L2,0.005582007943332273,Gain
+% ADA Diff,Logistic Regression - L2,-0.036410859365440626,Gain
+% Tested Math G3 Diff,Logistic Regression - L2,0.14427026702508014,Gain
+% Tested Math G4 Diff,Logistic Regression - L2,0.06318842939374929,Gain
+% Tested Math G5 Diff,Logistic Regression - L2,-0.19329196202715182,Gain
+% Tested Math G6 Diff,Logistic Regression - L2,0.08671794209204939,Gain
+% Tested Math G7 Diff,Logistic Regression - L2,-0.033509170186337124,Gain
+% Tested Math G8 Diff,Logistic Regression - L2,-0.030639415511162366,Gain
+Locale_11-City: Large,Logistic Regression - L2,-0.15480055395347087,Gain
+Locale_12-City: Mid-size,Logistic Regression - L2,-0.05249145281939982,Gain
+Locale_13-City: Small,Logistic Regression - L2,0.1277742210108256,Gain
+Locale_21-Suburb: Large,Logistic Regression - L2,-0.2136879627335741,Gain
+Locale_22-Suburb: Mid-size,Logistic Regression - L2,-0.1168850935468436,Gain
+Locale_23-Suburb: Small,Logistic Regression - L2,-0.13253731274636227,Gain
+Locale_31-Town: Fringe,Logistic Regression - L2,0.0441252311656658,Gain
+Locale_32-Town: Distant,Logistic Regression - L2,0.11994118849077916,Gain
+Locale_33-Town: Remote,Logistic Regression - L2,0.021250173000167245,Gain
+Locale_41-Rural: Fringe,Logistic Regression - L2,0.00425502341669194,Gain
+Locale_42-Rural: Distant,Logistic Regression - L2,0.1380011789647037,Gain
+Locale_43-Rural: Remote,Logistic Regression - L2,0.03960609400355095,Gain
+Labor Force Diff,Logistic Regression - elasticnet,0.0,Loss
+Employed Diff,Logistic Regression - elasticnet,0.0,Loss
+Unemployed Level Diff,Logistic Regression - elasticnet,0.0,Loss
+Unemployed Rate Diff,Logistic Regression - elasticnet,0.0,Loss
+Median Age 10,Logistic Regression - elasticnet,0.029811988138870343,Loss
+Median Age Male 10,Logistic Regression - elasticnet,0.025958210966040177,Loss
+Median Age Female 10,Logistic Regression - elasticnet,0.03259170684558266,Loss
+# of Households 10,Logistic Regression - elasticnet,0.0,Loss
+Avg Household Size 10,Logistic Regression - elasticnet,0.01723903883055944,Loss
+# of Families 10,Logistic Regression - elasticnet,0.0,Loss
+Avg Family Size 10,Logistic Regression - elasticnet,0.02806204698260953,Loss
+# of Housing Units 10,Logistic Regression - elasticnet,0.0,Loss
+County Population,Logistic Regression - elasticnet,0.0,Loss
+CARES ESSER I 20,Logistic Regression - elasticnet,0.07847163010189183,Loss
+CRRSA ESSER II 21,Logistic Regression - elasticnet,0.0,Loss
+ARP ESSER III 21,Logistic Regression - elasticnet,0.0,Loss
+ESSER-SUPP 22,Logistic Regression - elasticnet,-0.0212037562001029,Loss
+ESSER-SUPP 23,Logistic Regression - elasticnet,-0.02036714053235138,Loss
+% County Infected 09/28/20,Logistic Regression - elasticnet,-0.07120849067515274,Loss
+% County Deaths 09/28/20,Logistic Regression - elasticnet,0.0,Loss
+% County Infected 10/30/20,Logistic Regression - elasticnet,0.0,Loss
+% County Deaths 10/30/20,Logistic Regression - elasticnet,0.0,Loss
+% County Infected 01/29/21,Logistic Regression - elasticnet,0.0,Loss
+% County Deaths 01/29/21,Logistic Regression - elasticnet,0.0,Loss
+% On Campus 09/28/20,Logistic Regression - elasticnet,-0.39518051062257775,Loss
+% On Campus 10/30/20,Logistic Regression - elasticnet,-0.5409778919041639,Loss
+% On Campus 01/29/21,Logistic Regression - elasticnet,-0.3813119220250814,Loss
+% White Pop 10,Logistic Regression - elasticnet,0.0,Loss
+% Black Pop 10,Logistic Regression - elasticnet,0.0,Loss
+% Asian Pop 10,Logistic Regression - elasticnet,0.0,Loss
+% Hispanic Pop 10,Logistic Regression - elasticnet,0.0,Loss
+% Male Pop 10,Logistic Regression - elasticnet,0.0,Loss
+% Female Pop 10,Logistic Regression - elasticnet,0.0,Loss
+% Age 0-4 Pop 10,Logistic Regression - elasticnet,0.0,Loss
+% Age 5-9 Pop 10,Logistic Regression - elasticnet,0.0,Loss
+% Age 10-14 Pop 10,Logistic Regression - elasticnet,0.0,Loss
+% Age 15-19 Pop 10,Logistic Regression - elasticnet,0.0,Loss
+% Age 20-24 Pop 10,Logistic Regression - elasticnet,-0.03880550438402566,Loss
+% Age 25-34 Pop 10,Logistic Regression - elasticnet,0.0,Loss
+% Age 35-44 Pop 10,Logistic Regression - elasticnet,0.16067492190092378,Loss
+% Age 45-54 Pop 10,Logistic Regression - elasticnet,0.0,Loss
+% Age 55-64 Pop 10,Logistic Regression - elasticnet,0.0,Loss
+% Age 65-74 Pop 10,Logistic Regression - elasticnet,0.0,Loss
+% Age 75-84 Pop 10,Logistic Regression - elasticnet,0.0,Loss
+% Age 85-Up Pop 10,Logistic Regression - elasticnet,0.0,Loss
+% HH 1 Male 10,Logistic Regression - elasticnet,0.0,Loss
+% HH 1 Female 10,Logistic Regression - elasticnet,0.03684833235199027,Loss
+% HH Married-Child 10,Logistic Regression - elasticnet,0.0,Loss
+% HH Married-noChild 10,Logistic Regression - elasticnet,0.0,Loss
+% HH Male-Child 10,Logistic Regression - elasticnet,0.0,Loss
+% HH Female-Child 10,Logistic Regression - elasticnet,0.0,Loss
+% Housing Vacant 10,Logistic Regression - elasticnet,0.13269705659412948,Loss
+% Housing Owner Occup 10,Logistic Regression - elasticnet,0.0,Loss
+% Housing Renter Occup 10,Logistic Regression - elasticnet,0.0,Loss
+Total Schools Diff,Logistic Regression - elasticnet,0.0,Loss
+Total Students Diff,Logistic Regression - elasticnet,0.09235979741688345,Loss
+% Operational Schools Diff,Logistic Regression - elasticnet,0.0,Loss
+% Title 1 School-wide Diff,Logistic Regression - elasticnet,-0.13408470964138108,Loss
+% Title 1 Eligible Diff,Logistic Regression - elasticnet,0.046486790190022574,Loss
+Teachers:Students Diff,Logistic Regression - elasticnet,0.143200685393893,Loss
+Staff:Students Diff,Logistic Regression - elasticnet,0.0,Loss
+% Free Lunch Diff,Logistic Regression - elasticnet,0.0,Loss
+% Reduced-price Lunch Diff,Logistic Regression - elasticnet,-0.07208803787765079,Loss
+% Asian Diff,Logistic Regression - elasticnet,-0.22619211795003122,Loss
+% Hispanic Diff,Logistic Regression - elasticnet,0.10391110417172006,Loss
+% Black Diff,Logistic Regression - elasticnet,-0.12219271139648963,Loss
+% White Diff,Logistic Regression - elasticnet,0.0,Loss
+% Grades 1-8 Diff,Logistic Regression - elasticnet,0.1770250170059869,Loss
+% Grades 9-12 Diff,Logistic Regression - elasticnet,0.07448042808364369,Loss
+% Prek Diff,Logistic Regression - elasticnet,-0.062493499591008035,Loss
+% Kinder Diff,Logistic Regression - elasticnet,0.0,Loss
+% ADA Diff,Logistic Regression - elasticnet,0.14746971203663362,Loss
+% Tested Math G3 Diff,Logistic Regression - elasticnet,0.0,Loss
+% Tested Math G4 Diff,Logistic Regression - elasticnet,0.0,Loss
+% Tested Math G5 Diff,Logistic Regression - elasticnet,-0.01511479351681048,Loss
+% Tested Math G6 Diff,Logistic Regression - elasticnet,-0.14122475489199945,Loss
+% Tested Math G7 Diff,Logistic Regression - elasticnet,0.08632571244015695,Loss
+% Tested Math G8 Diff,Logistic Regression - elasticnet,-0.02919548148794371,Loss
+Locale_11-City: Large,Logistic Regression - elasticnet,0.10794702296583901,Loss
+Locale_12-City: Mid-size,Logistic Regression - elasticnet,0.008404004748415827,Loss
+Locale_13-City: Small,Logistic Regression - elasticnet,-0.07586156904207807,Loss
+Locale_21-Suburb: Large,Logistic Regression - elasticnet,0.0,Loss
+Locale_22-Suburb: Mid-size,Logistic Regression - elasticnet,-0.11871014729010942,Loss
+Locale_23-Suburb: Small,Logistic Regression - elasticnet,-0.029391089059855553,Loss
+Locale_31-Town: Fringe,Logistic Regression - elasticnet,0.0,Loss
+Locale_32-Town: Distant,Logistic Regression - elasticnet,0.0,Loss
+Locale_33-Town: Remote,Logistic Regression - elasticnet,-0.10314494690083081,Loss
+Locale_41-Rural: Fringe,Logistic Regression - elasticnet,-0.09853655061907264,Loss
+Locale_42-Rural: Distant,Logistic Regression - elasticnet,0.054873366044025894,Loss
+Locale_43-Rural: Remote,Logistic Regression - elasticnet,0.011510962264111161,Loss
+Labor Force Diff,Logistic Regression - elasticnet,0.0,Expected
+Employed Diff,Logistic Regression - elasticnet,0.1073709208730797,Expected
+Unemployed Level Diff,Logistic Regression - elasticnet,-0.08147272922559774,Expected
+Unemployed Rate Diff,Logistic Regression - elasticnet,-0.001981892545404108,Expected
+Median Age 10,Logistic Regression - elasticnet,-0.0023892010901466402,Expected
+Median Age Male 10,Logistic Regression - elasticnet,-0.0061377674528456235,Expected
+Median Age Female 10,Logistic Regression - elasticnet,0.0,Expected
+# of Households 10,Logistic Regression - elasticnet,-0.00025752208817746115,Expected
+Avg Household Size 10,Logistic Regression - elasticnet,-0.008083822950982379,Expected
+# of Families 10,Logistic Regression - elasticnet,0.0,Expected
+Avg Family Size 10,Logistic Regression - elasticnet,-0.03392226679977812,Expected
+# of Housing Units 10,Logistic Regression - elasticnet,0.0,Expected
+County Population,Logistic Regression - elasticnet,0.0,Expected
+CARES ESSER I 20,Logistic Regression - elasticnet,-0.026600964675067233,Expected
+CRRSA ESSER II 21,Logistic Regression - elasticnet,0.0,Expected
+ARP ESSER III 21,Logistic Regression - elasticnet,0.0,Expected
+ESSER-SUPP 22,Logistic Regression - elasticnet,0.05161345649205038,Expected
+ESSER-SUPP 23,Logistic Regression - elasticnet,0.047884263714884585,Expected
+% County Infected 09/28/20,Logistic Regression - elasticnet,0.0,Expected
+% County Deaths 09/28/20,Logistic Regression - elasticnet,0.0,Expected
+% County Infected 10/30/20,Logistic Regression - elasticnet,-0.15007759866931758,Expected
+% County Deaths 10/30/20,Logistic Regression - elasticnet,0.0,Expected
+% County Infected 01/29/21,Logistic Regression - elasticnet,-0.05119987924376691,Expected
+% County Deaths 01/29/21,Logistic Regression - elasticnet,0.0,Expected
+% On Campus 09/28/20,Logistic Regression - elasticnet,0.0,Expected
+% On Campus 10/30/20,Logistic Regression - elasticnet,0.3380697739499981,Expected
+% On Campus 01/29/21,Logistic Regression - elasticnet,0.13853876857609818,Expected
+% White Pop 10,Logistic Regression - elasticnet,0.0,Expected
+% Black Pop 10,Logistic Regression - elasticnet,0.08201342737533628,Expected
+% Asian Pop 10,Logistic Regression - elasticnet,0.019295594433406803,Expected
+% Hispanic Pop 10,Logistic Regression - elasticnet,0.0,Expected
+% Male Pop 10,Logistic Regression - elasticnet,0.018247511841458477,Expected
+% Female Pop 10,Logistic Regression - elasticnet,-0.018247511841462206,Expected
+% Age 0-4 Pop 10,Logistic Regression - elasticnet,0.0,Expected
+% Age 5-9 Pop 10,Logistic Regression - elasticnet,0.0,Expected
+% Age 10-14 Pop 10,Logistic Regression - elasticnet,-0.08462573363200462,Expected
+% Age 15-19 Pop 10,Logistic Regression - elasticnet,0.013750991289066563,Expected
+% Age 20-24 Pop 10,Logistic Regression - elasticnet,0.07486260340656163,Expected
+% Age 25-34 Pop 10,Logistic Regression - elasticnet,-0.00038853497456424257,Expected
+% Age 35-44 Pop 10,Logistic Regression - elasticnet,0.0,Expected
+% Age 45-54 Pop 10,Logistic Regression - elasticnet,0.00679372667740264,Expected
+% Age 55-64 Pop 10,Logistic Regression - elasticnet,0.0,Expected
+% Age 65-74 Pop 10,Logistic Regression - elasticnet,0.0,Expected
+% Age 75-84 Pop 10,Logistic Regression - elasticnet,0.0,Expected
+% Age 85-Up Pop 10,Logistic Regression - elasticnet,0.0,Expected
+% HH 1 Male 10,Logistic Regression - elasticnet,-0.06409749697057655,Expected
+% HH 1 Female 10,Logistic Regression - elasticnet,-0.006054233416990476,Expected
+% HH Married-Child 10,Logistic Regression - elasticnet,0.0,Expected
+% HH Married-noChild 10,Logistic Regression - elasticnet,0.0,Expected
+% HH Male-Child 10,Logistic Regression - elasticnet,0.10910235286390567,Expected
+% HH Female-Child 10,Logistic Regression - elasticnet,0.0895597782064692,Expected
+% Housing Vacant 10,Logistic Regression - elasticnet,-0.005441508002734035,Expected
+% Housing Owner Occup 10,Logistic Regression - elasticnet,0.0,Expected
+% Housing Renter Occup 10,Logistic Regression - elasticnet,0.0,Expected
+Total Schools Diff,Logistic Regression - elasticnet,0.05627438713640942,Expected
+Total Students Diff,Logistic Regression - elasticnet,-0.08232661540145854,Expected
+% Operational Schools Diff,Logistic Regression - elasticnet,0.0986531770170609,Expected
+% Title 1 School-wide Diff,Logistic Regression - elasticnet,0.05484201958166884,Expected
+% Title 1 Eligible Diff,Logistic Regression - elasticnet,0.013336670409433217,Expected
+Teachers:Students Diff,Logistic Regression - elasticnet,-0.17257382500852372,Expected
+Staff:Students Diff,Logistic Regression - elasticnet,-0.0773200883188779,Expected
+% Free Lunch Diff,Logistic Regression - elasticnet,0.0,Expected
+% Reduced-price Lunch Diff,Logistic Regression - elasticnet,0.07075435811734941,Expected
+% Asian Diff,Logistic Regression - elasticnet,0.0,Expected
+% Hispanic Diff,Logistic Regression - elasticnet,0.0,Expected
+% Black Diff,Logistic Regression - elasticnet,0.07330391962987433,Expected
+% White Diff,Logistic Regression - elasticnet,-0.011564300197614445,Expected
+% Grades 1-8 Diff,Logistic Regression - elasticnet,-0.1719345020911786,Expected
+% Grades 9-12 Diff,Logistic Regression - elasticnet,0.0,Expected
+% Prek Diff,Logistic Regression - elasticnet,-0.056545221072431394,Expected
+% Kinder Diff,Logistic Regression - elasticnet,0.0,Expected
+% ADA Diff,Logistic Regression - elasticnet,-0.04369508147320044,Expected
+% Tested Math G3 Diff,Logistic Regression - elasticnet,0.0,Expected
+% Tested Math G4 Diff,Logistic Regression - elasticnet,-0.09517214681259002,Expected
+% Tested Math G5 Diff,Logistic Regression - elasticnet,0.15617699346842123,Expected
+% Tested Math G6 Diff,Logistic Regression - elasticnet,0.02103718876021511,Expected
+% Tested Math G7 Diff,Logistic Regression - elasticnet,-0.06931453357885367,Expected
+% Tested Math G8 Diff,Logistic Regression - elasticnet,0.04042623620860086,Expected
+Locale_11-City: Large,Logistic Regression - elasticnet,-0.07847497733714978,Expected
+Locale_12-City: Mid-size,Logistic Regression - elasticnet,0.015312183988666232,Expected
+Locale_13-City: Small,Logistic Regression - elasticnet,0.003684807654518164,Expected
+Locale_21-Suburb: Large,Logistic Regression - elasticnet,0.0697224308752125,Expected
+Locale_22-Suburb: Mid-size,Logistic Regression - elasticnet,0.16769131603239307,Expected
+Locale_23-Suburb: Small,Logistic Regression - elasticnet,0.13240217487877887,Expected
+Locale_31-Town: Fringe,Logistic Regression - elasticnet,0.0,Expected
+Locale_32-Town: Distant,Logistic Regression - elasticnet,-0.0013785880526941438,Expected
+Locale_33-Town: Remote,Logistic Regression - elasticnet,0.04693030961401992,Expected
+Locale_41-Rural: Fringe,Logistic Regression - elasticnet,0.08551675541288094,Expected
+Locale_42-Rural: Distant,Logistic Regression - elasticnet,-0.1598639142319367,Expected
+Locale_43-Rural: Remote,Logistic Regression - elasticnet,-0.06269667275687882,Expected
+Labor Force Diff,Logistic Regression - elasticnet,-0.11602566473047826,Gain
+Employed Diff,Logistic Regression - elasticnet,-0.03333971229971454,Gain
+Unemployed Level Diff,Logistic Regression - elasticnet,0.0,Gain
+Unemployed Rate Diff,Logistic Regression - elasticnet,0.0,Gain
+Median Age 10,Logistic Regression - elasticnet,0.0,Gain
+Median Age Male 10,Logistic Regression - elasticnet,0.0,Gain
+Median Age Female 10,Logistic Regression - elasticnet,0.0,Gain
+# of Households 10,Logistic Regression - elasticnet,0.0,Gain
+Avg Household Size 10,Logistic Regression - elasticnet,0.0,Gain
+# of Families 10,Logistic Regression - elasticnet,0.0,Gain
+Avg Family Size 10,Logistic Regression - elasticnet,0.0,Gain
+# of Housing Units 10,Logistic Regression - elasticnet,0.0,Gain
+County Population,Logistic Regression - elasticnet,0.0,Gain
+CARES ESSER I 20,Logistic Regression - elasticnet,-0.0771842535826138,Gain
+CRRSA ESSER II 21,Logistic Regression - elasticnet,-0.09470654882880218,Gain
+ARP ESSER III 21,Logistic Regression - elasticnet,-0.10592305004990894,Gain
+ESSER-SUPP 22,Logistic Regression - elasticnet,0.0,Gain
+ESSER-SUPP 23,Logistic Regression - elasticnet,0.0,Gain
+% County Infected 09/28/20,Logistic Regression - elasticnet,0.027988995535982043,Gain
+% County Deaths 09/28/20,Logistic Regression - elasticnet,0.0,Gain
+% County Infected 10/30/20,Logistic Regression - elasticnet,0.19257852978302567,Gain
+% County Deaths 10/30/20,Logistic Regression - elasticnet,0.0,Gain
+% County Infected 01/29/21,Logistic Regression - elasticnet,0.0,Gain
+% County Deaths 01/29/21,Logistic Regression - elasticnet,0.0,Gain
+% On Campus 09/28/20,Logistic Regression - elasticnet,0.5290127589935524,Gain
+% On Campus 10/30/20,Logistic Regression - elasticnet,0.10685359591595034,Gain
+% On Campus 01/29/21,Logistic Regression - elasticnet,0.22715655214040165,Gain
+% White Pop 10,Logistic Regression - elasticnet,0.0,Gain
+% Black Pop 10,Logistic Regression - elasticnet,-0.10311353691580019,Gain
+% Asian Pop 10,Logistic Regression - elasticnet,-0.16358204182310562,Gain
+% Hispanic Pop 10,Logistic Regression - elasticnet,0.0,Gain
+% Male Pop 10,Logistic Regression - elasticnet,-0.015861854078607563,Gain
+% Female Pop 10,Logistic Regression - elasticnet,0.015861854078616986,Gain
+% Age 0-4 Pop 10,Logistic Regression - elasticnet,0.0,Gain
+% Age 5-9 Pop 10,Logistic Regression - elasticnet,0.0,Gain
+% Age 10-14 Pop 10,Logistic Regression - elasticnet,0.10315901228849335,Gain
+% Age 15-19 Pop 10,Logistic Regression - elasticnet,0.0,Gain
+% Age 20-24 Pop 10,Logistic Regression - elasticnet,0.0,Gain
+% Age 25-34 Pop 10,Logistic Regression - elasticnet,0.0,Gain
+% Age 35-44 Pop 10,Logistic Regression - elasticnet,0.0,Gain
+% Age 45-54 Pop 10,Logistic Regression - elasticnet,0.0,Gain
+% Age 55-64 Pop 10,Logistic Regression - elasticnet,0.0,Gain
+% Age 65-74 Pop 10,Logistic Regression - elasticnet,0.0,Gain
+% Age 75-84 Pop 10,Logistic Regression - elasticnet,0.0,Gain
+% Age 85-Up Pop 10,Logistic Regression - elasticnet,0.0,Gain
+% HH 1 Male 10,Logistic Regression - elasticnet,0.08006243072569168,Gain
+% HH 1 Female 10,Logistic Regression - elasticnet,0.0,Gain
+% HH Married-Child 10,Logistic Regression - elasticnet,0.0,Gain
+% HH Married-noChild 10,Logistic Regression - elasticnet,0.0,Gain
+% HH Male-Child 10,Logistic Regression - elasticnet,-0.09651156291855889,Gain
+% HH Female-Child 10,Logistic Regression - elasticnet,-0.08241147880453481,Gain
+% Housing Vacant 10,Logistic Regression - elasticnet,0.0,Gain
+% Housing Owner Occup 10,Logistic Regression - elasticnet,0.025671222312410667,Gain
+% Housing Renter Occup 10,Logistic Regression - elasticnet,0.0,Gain
+Total Schools Diff,Logistic Regression - elasticnet,-0.05317284747554827,Gain
+Total Students Diff,Logistic Regression - elasticnet,0.0,Gain
+% Operational Schools Diff,Logistic Regression - elasticnet,-0.10957798950868189,Gain
+% Title 1 School-wide Diff,Logistic Regression - elasticnet,0.0,Gain
+% Title 1 Eligible Diff,Logistic Regression - elasticnet,-0.08895982863799727,Gain
+Teachers:Students Diff,Logistic Regression - elasticnet,0.09078282416259525,Gain
+Staff:Students Diff,Logistic Regression - elasticnet,0.09001942618085232,Gain
+% Free Lunch Diff,Logistic Regression - elasticnet,0.0,Gain
+% Reduced-price Lunch Diff,Logistic Regression - elasticnet,0.0,Gain
+% Asian Diff,Logistic Regression - elasticnet,0.12168173407232247,Gain
+% Hispanic Diff,Logistic Regression - elasticnet,-0.05423381233476187,Gain
+% Black Diff,Logistic Regression - elasticnet,0.0,Gain
+% White Diff,Logistic Regression - elasticnet,0.0,Gain
+% Grades 1-8 Diff,Logistic Regression - elasticnet,0.0,Gain
+% Grades 9-12 Diff,Logistic Regression - elasticnet,-0.08984344850173083,Gain
+% Prek Diff,Logistic Regression - elasticnet,0.06443025926533599,Gain
+% Kinder Diff,Logistic Regression - elasticnet,0.0,Gain
+% ADA Diff,Logistic Regression - elasticnet,-0.02670910160030618,Gain
+% Tested Math G3 Diff,Logistic Regression - elasticnet,0.11733443467183423,Gain
+% Tested Math G4 Diff,Logistic Regression - elasticnet,0.0032681122934807728,Gain
+% Tested Math G5 Diff,Logistic Regression - elasticnet,-0.10106785527339725,Gain
+% Tested Math G6 Diff,Logistic Regression - elasticnet,0.050211867572710865,Gain
+% Tested Math G7 Diff,Logistic Regression - elasticnet,0.0,Gain
+% Tested Math G8 Diff,Logistic Regression - elasticnet,0.0,Gain
+Locale_11-City: Large,Logistic Regression - elasticnet,0.0,Gain
+Locale_12-City: Mid-size,Logistic Regression - elasticnet,-0.01830354673032864,Gain
+Locale_13-City: Small,Logistic Regression - elasticnet,0.073023316880981,Gain
+Locale_21-Suburb: Large,Logistic Regression - elasticnet,-0.18694319618768448,Gain
+Locale_22-Suburb: Mid-size,Logistic Regression - elasticnet,-0.06641570087578245,Gain
+Locale_23-Suburb: Small,Logistic Regression - elasticnet,-0.07318339764569319,Gain
+Locale_31-Town: Fringe,Logistic Regression - elasticnet,0.013856948121769165,Gain
+Locale_32-Town: Distant,Logistic Regression - elasticnet,0.04397849764511444,Gain
+Locale_33-Town: Remote,Logistic Regression - elasticnet,0.0,Gain
+Locale_41-Rural: Fringe,Logistic Regression - elasticnet,0.0,Gain
+Locale_42-Rural: Distant,Logistic Regression - elasticnet,0.08671483529235295,Gain
+Locale_43-Rural: Remote,Logistic Regression - elasticnet,0.0,Gain
