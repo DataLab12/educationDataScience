@@ -113,120 +113,120 @@ Locale_33-Town: Remote,Variance Threshold,N/A,0.0,N/A,0,Variance Threshold
 Locale_41-Rural: Fringe,Variance Threshold,N/A,0.0,N/A,0,Variance Threshold
 Locale_42-Rural: Distant,Variance Threshold,N/A,1.0,N/A,1,Variance Threshold
 Locale_43-Rural: Remote,Variance Threshold,N/A,0.0,N/A,0,Variance Threshold
-# of Families 10,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
+Total Students 2018-2019,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
+Total Students 2020-2021,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
+Labor Force Diff,Regularization,Lasso,-0.013845826347815686,N/A,1,Regularization - Lasso
+Employed Diff,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
+Unemployed Level Diff,Regularization,Lasso,0.20266997659639543,N/A,1,Regularization - Lasso
+Unemployed Rate Diff,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
+Median Age 10,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
+Median Age Male 10,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
+Median Age Female 10,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
 # of Households 10,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
+Avg Household Size 10,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
+# of Families 10,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
+Avg Family Size 10,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
 # of Housing Units 10,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
-% ADA 2018-2019,Regularization,Lasso,-0.0008934266136794387,N/A,1,Regularization - Lasso
-% ADA 2020-2021,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
-% Age 0-4 Pop 10,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
-% Age 10-14 Pop 10,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
-% Age 15-19 Pop 10,Regularization,Lasso,-0.012513590797347889,N/A,1,Regularization - Lasso
-% Age 20-24 Pop 10,Regularization,Lasso,0.0505850097763481,N/A,1,Regularization - Lasso
-% Age 25-34 Pop 10,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
-% Age 35-44 Pop 10,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
-% Age 45-54 Pop 10,Regularization,Lasso,0.027383666542687046,N/A,1,Regularization - Lasso
-% Age 5-9 Pop 10,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
-% Age 55-64 Pop 10,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
-% Age 65-74 Pop 10,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
-% Age 75-84 Pop 10,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
-% Age 85-Up Pop 10,Regularization,Lasso,0.039341022711374816,N/A,1,Regularization - Lasso
-% Asian Pop 10,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
-% Asian or Asian/Pacific Islander Students 2018-2019,Regularization,Lasso,0.05883946642257018,N/A,1,Regularization - Lasso
-% Asian or Asian/Pacific Islander Students 2020-2021,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
-% Black Pop 10,Regularization,Lasso,0.05946580746828688,N/A,1,Regularization - Lasso
-% Black or African American Students 2018-2019,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
-% Black or African American Students 2020-2021,Regularization,Lasso,-0.21966239961071207,N/A,1,Regularization - Lasso
-% County Deaths 01/29/21,Regularization,Lasso,-0.02778863334716757,N/A,1,Regularization - Lasso
-% County Deaths 09/28/20,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
-% County Deaths 10/30/20,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
-% County Infected 01/29/21,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
-% County Infected 09/28/20,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
-% County Infected 10/30/20,Regularization,Lasso,-0.018415097281856835,N/A,1,Regularization - Lasso
-% Female Pop 10,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
-% Free Lunch 2018-2019,Regularization,Lasso,0.3430903427456238,N/A,1,Regularization - Lasso
-% Free Lunch 2020-2021,Regularization,Lasso,-0.030449355699804184,N/A,1,Regularization - Lasso
-% Grades 1-8 2018-2019,Regularization,Lasso,-0.13523150640092274,N/A,1,Regularization - Lasso
-% Grades 1-8 2020-2021,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
-% Grades 9-12 2018-2019,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
-% Grades 9-12 2020-2021,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
-% HH 1 Female 10,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
-% HH 1 Male 10,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
-% HH Female-Child 10,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
-% HH Male-Child 10,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
-% HH Married-Child 10,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
-% HH Married-noChild 10,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
-% Hispanic Pop 10,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
-% Hispanic Students 2018-2019,Regularization,Lasso,-0.0015673028018932174,N/A,1,Regularization - Lasso
-% Hispanic Students 2020-2021,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
-% Housing Owner Occup 10,Regularization,Lasso,0.0547574931684054,N/A,1,Regularization - Lasso
-% Housing Renter Occup 10,Regularization,Lasso,-0.025317846410181186,N/A,1,Regularization - Lasso
-% Housing Vacant 10,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
-% K 2018-2019,Regularization,Lasso,0.11431538250723076,N/A,1,Regularization - Lasso
-% K 2020-2021,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
-% Male Pop 10,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
-% On Campus 01/29/21,Regularization,Lasso,-0.0835182185301733,N/A,1,Regularization - Lasso
-% On Campus 09/28/20,Regularization,Lasso,0.3429001301040542,N/A,1,Regularization - Lasso
-% On Campus 10/30/20,Regularization,Lasso,-0.14658861654040423,N/A,1,Regularization - Lasso
-% Operational Schools Diff,Regularization,Lasso,-0.006741554400906777,N/A,1,Regularization - Lasso
-% Prek 2018-2019,Regularization,Lasso,-0.04215296847061458,N/A,1,Regularization - Lasso
-% Prek 2020-2021,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
-% Reduced-price Lunch 2018-2019,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
-% Reduced-price Lunch 2020-2021,Regularization,Lasso,0.1285800275147114,N/A,1,Regularization - Lasso
-% School-wide Title I 2018-2019,Regularization,Lasso,-0.035897593360955424,N/A,1,Regularization - Lasso
+County Population,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
+CARES ESSER I 20,Regularization,Lasso,-0.06043880884225223,N/A,1,Regularization - Lasso
 % School-wide Title I 2020-2021,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
-% Students Tested Math - Grade 3 2018-2019,Regularization,Lasso,0.024966155308266437,N/A,1,Regularization - Lasso
-% Students Tested Math - Grade 3 2020-2021,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
-% Students Tested Math - Grade 4 2018-2019,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
-% Students Tested Math - Grade 4 2020-2021,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
-% Students Tested Math - Grade 5 2018-2019,Regularization,Lasso,0.014727983584293586,N/A,1,Regularization - Lasso
-% Students Tested Math - Grade 5 2020-2021,Regularization,Lasso,0.0642594973525613,N/A,1,Regularization - Lasso
-% Students Tested Math - Grade 6 2018-2019,Regularization,Lasso,-0.05477777364270475,N/A,1,Regularization - Lasso
-% Students Tested Math - Grade 6 2020-2021,Regularization,Lasso,0.21096352713036148,N/A,1,Regularization - Lasso
-% Students Tested Math - Grade 7 2018-2019,Regularization,Lasso,-0.011797593988973589,N/A,1,Regularization - Lasso
-% Students Tested Math - Grade 7 2020-2021,Regularization,Lasso,-0.007599965710352263,N/A,1,Regularization - Lasso
-% Students Tested Math - Grade 8 2018-2019,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
-% Students Tested Math - Grade 8 2020-2021,Regularization,Lasso,-0.20425963084527624,N/A,1,Regularization - Lasso
+% School-wide Title I 2018-2019,Regularization,Lasso,-0.03648812121289118,N/A,1,Regularization - Lasso
+% Title I Eligible School 2020-2021,Regularization,Lasso,-0.061178242726213604,N/A,1,Regularization - Lasso
 % Title I Eligible School 2018-2019,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
-% Title I Eligible School 2020-2021,Regularization,Lasso,-0.03384703831483681,N/A,1,Regularization - Lasso
-% White Pop 10,Regularization,Lasso,-0.009228647350278582,N/A,1,Regularization - Lasso
-% White Students 2018-2019,Regularization,Lasso,-0.1666853201079985,N/A,1,Regularization - Lasso
-% White Students 2020-2021,Regularization,Lasso,0.10668872897069946,N/A,1,Regularization - Lasso
-Average Score Math All Grade 3 2018-2019,Regularization,Lasso,0.035848138667001046,N/A,1,Regularization - Lasso
-Average Score Math All Grade 4 2018-2019,Regularization,Lasso,0.09798062101883333,N/A,1,Regularization - Lasso
+Teachers:Students 2020-2021,Regularization,Lasso,-0.17567471144751418,N/A,1,Regularization - Lasso
+Teachers:Students 2018-2019,Regularization,Lasso,-0.13346133034861493,N/A,1,Regularization - Lasso
+Staff:Students 2020-2021,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
+Staff:Students 2018-2019,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
+% Free Lunch 2020-2021,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
+% Free Lunch 2018-2019,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
+% Reduced-price Lunch 2020-2021,Regularization,Lasso,-0.014369416851028471,N/A,1,Regularization - Lasso
+% Reduced-price Lunch 2018-2019,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
+% Asian or Asian/Pacific Islander Students 2020-2021,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
+% Asian or Asian/Pacific Islander Students 2018-2019,Regularization,Lasso,0.05883946642257018,N/A,1,Regularization - Lasso
+% Hispanic Students 2020-2021,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
+% Hispanic Students 2018-2019,Regularization,Lasso,-0.0015673028018932174,N/A,1,Regularization - Lasso
+% Black or African American Students 2020-2021,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
+% Black or African American Students 2018-2019,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
+% White Students 2020-2021,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
+% White Students 2018-2019,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
+% Grades 1-8 2020-2021,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
+% Grades 1-8 2018-2019,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
+% Grades 9-12 2020-2021,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
+% Grades 9-12 2018-2019,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
+% Prek 2020-2021,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
+% Prek 2018-2019,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
+% K 2020-2021,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
+% K 2018-2019,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
+% ADA 2018-2019,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
+% ADA 2020-2021,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
+% Students Tested Math - Grade 3 2018-2019,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
+% Students Tested Math - Grade 4 2018-2019,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
+% Students Tested Math - Grade 5 2018-2019,Regularization,Lasso,-0.16396325183221952,N/A,1,Regularization - Lasso
+% Students Tested Math - Grade 6 2018-2019,Regularization,Lasso,-0.16556500296129487,N/A,1,Regularization - Lasso
+% Students Tested Math - Grade 7 2018-2019,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
+% Students Tested Math - Grade 8 2018-2019,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
+% Students Tested Math - Grade 3 2020-2021,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
+% Students Tested Math - Grade 4 2020-2021,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
+% Students Tested Math - Grade 5 2020-2021,Regularization,Lasso,0.0642594973525613,N/A,1,Regularization - Lasso
+% Students Tested Math - Grade 6 2020-2021,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
+% Students Tested Math - Grade 7 2020-2021,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
+% Students Tested Math - Grade 8 2020-2021,Regularization,Lasso,0.15363025249435255,N/A,1,Regularization - Lasso
+Average Score Math All Grade 3 2018-2019,Regularization,Lasso,-0.058817320368318,N/A,1,Regularization - Lasso
+Average Score Math All Grade 4 2018-2019,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
 Average Score Math All Grade 5 2018-2019,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
 Average Score Math All Grade 6 2018-2019,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
 Average Score Math All Grade 7 2018-2019,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
-Average Score Math All Grade 8 2018-2019,Regularization,Lasso,-0.059421558155540594,N/A,1,Regularization - Lasso
-Avg Family Size 10,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
-Avg Household Size 10,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
-CARES ESSER I 20,Regularization,Lasso,-0.03092325192373857,N/A,1,Regularization - Lasso
-County Population,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
-Employed Diff,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
-Labor Force Diff,Regularization,Lasso,0.09547268350181524,N/A,1,Regularization - Lasso
-Locale_11-City: Large,Regularization,Lasso,0.01995143537243221,N/A,1,Regularization - Lasso
+Average Score Math All Grade 8 2018-2019,Regularization,Lasso,0.15055681018732142,N/A,1,Regularization - Lasso
+% County Infected 09/28/20,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
+% County Deaths 09/28/20,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
+% County Infected 10/30/20,Regularization,Lasso,-0.09491539349741583,N/A,1,Regularization - Lasso
+% County Deaths 10/30/20,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
+% County Infected 01/29/21,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
+% County Deaths 01/29/21,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
+% On Campus 09/28/20,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
+% On Campus 10/30/20,Regularization,Lasso,0.2982734314442566,N/A,1,Regularization - Lasso
+% On Campus 01/29/21,Regularization,Lasso,0.22204793741376577,N/A,1,Regularization - Lasso
+% White Pop 10,Regularization,Lasso,-0.009228647350278582,N/A,1,Regularization - Lasso
+% Black Pop 10,Regularization,Lasso,0.05946580746828688,N/A,1,Regularization - Lasso
+% Asian Pop 10,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
+% Hispanic Pop 10,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
+% Male Pop 10,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
+% Female Pop 10,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
+% Age 0-4 Pop 10,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
+% Age 5-9 Pop 10,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
+% Age 10-14 Pop 10,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
+% Age 15-19 Pop 10,Regularization,Lasso,0.012428526910318186,N/A,1,Regularization - Lasso
+% Age 20-24 Pop 10,Regularization,Lasso,0.06619636194433118,N/A,1,Regularization - Lasso
+% Age 25-34 Pop 10,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
+% Age 35-44 Pop 10,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
+% Age 45-54 Pop 10,Regularization,Lasso,0.027383666542687046,N/A,1,Regularization - Lasso
+% Age 55-64 Pop 10,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
+% Age 65-74 Pop 10,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
+% Age 75-84 Pop 10,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
+% Age 85-Up Pop 10,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
+% HH 1 Male 10,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
+% HH 1 Female 10,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
+% HH Married-Child 10,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
+% HH Married-noChild 10,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
+% HH Male-Child 10,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
+% HH Female-Child 10,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
+% Housing Vacant 10,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
+% Housing Owner Occup 10,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
+% Housing Renter Occup 10,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
+Total Schools Diff,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
+% Operational Schools Diff,Regularization,Lasso,0.04171033254253812,N/A,1,Regularization - Lasso
+Locale_11-City: Large,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
 Locale_12-City: Mid-size,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
-Locale_13-City: Small,Regularization,Lasso,0.015396495188084235,N/A,1,Regularization - Lasso
-Locale_21-Suburb: Large,Regularization,Lasso,-0.005915821953601748,N/A,1,Regularization - Lasso
-Locale_22-Suburb: Mid-size,Regularization,Lasso,0.03570130599489627,N/A,1,Regularization - Lasso
+Locale_13-City: Small,Regularization,Lasso,0.020575956285940455,N/A,1,Regularization - Lasso
+Locale_21-Suburb: Large,Regularization,Lasso,0.04353523816740572,N/A,1,Regularization - Lasso
+Locale_22-Suburb: Mid-size,Regularization,Lasso,0.06535258155775633,N/A,1,Regularization - Lasso
 Locale_23-Suburb: Small,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
 Locale_31-Town: Fringe,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
-Locale_32-Town: Distant,Regularization,Lasso,0.02533983781268307,N/A,1,Regularization - Lasso
+Locale_32-Town: Distant,Regularization,Lasso,-0.010698420121498334,N/A,1,Regularization - Lasso
 Locale_33-Town: Remote,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
 Locale_41-Rural: Fringe,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
-Locale_42-Rural: Distant,Regularization,Lasso,-0.03216294563754362,N/A,1,Regularization - Lasso
+Locale_42-Rural: Distant,Regularization,Lasso,-0.06832764873924965,N/A,1,Regularization - Lasso
 Locale_43-Rural: Remote,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
-Median Age 10,Regularization,Lasso,-0.001618821278491155,N/A,1,Regularization - Lasso
-Median Age Female 10,Regularization,Lasso,-0.0018137838001221602,N/A,1,Regularization - Lasso
-Median Age Male 10,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
-Staff:Students 2018-2019,Regularization,Lasso,0.07280085670737105,N/A,1,Regularization - Lasso
-Staff:Students 2020-2021,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
-Teachers:Students 2018-2019,Regularization,Lasso,0.11439482177025759,N/A,1,Regularization - Lasso
-Teachers:Students 2020-2021,Regularization,Lasso,-0.12654586894092107,N/A,1,Regularization - Lasso
-Total Schools Diff,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
-Total Students 2018-2019,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
-Total Students 2020-2021,Regularization,Lasso,0.0,N/A,0,Regularization - Lasso
-Unemployed Level Diff,Regularization,Lasso,0.03322802510814779,N/A,1,Regularization - Lasso
-Unemployed Rate Diff,Regularization,Lasso,-0.02187128996116638,N/A,1,Regularization - Lasso
 Total Students 2018-2019,Feature Importance,Random Forest,0.011787618455985279,importances,1,Feature Importance - Random Forest
 Total Students 2020-2021,Feature Importance,Random Forest,0.012597906827284622,importances,1,Feature Importance - Random Forest
 Labor Force Diff,Feature Importance,Random Forest,0.009200543287301254,importances,1,Feature Importance - Random Forest
