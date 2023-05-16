@@ -24,10 +24,10 @@ Raw data were collected and cleaned from 8 different sources under [data](data) 
   2. Calculating Delta: Getting differences for the important variables having both values for 2018-2019 and 2021-2022 for overall change
   3. Labeling: Creating 3 classes for Learning Loss: Loss, Expected, Gain
 - Exporting: Generating 3 versions of csv
-  - [DATA_Texas_District_v1.csv](src/processing/DATA_Texas_District_v1.csv): raw integrated data with normalization, delta without missing value handling for EDA
-  - [DATA_Texas_District_v2.csv](src/processing/DATA_Texas_District_v2.csv): dropping all missing values with normalization and delta values for Feature Selection and Baseline modeling
-  - [DATA_Texas_District_v3.csv](src/processing/DATA_Texas_District_v3.csv): raw integrated data without normalization, delta. missing value handling for Gradient Boosting experiment
-  - [DATA_Texas_District_v4.csv](src/processing/DATA_Texas_District_v4.csv): deviate from v2 
+  - [DATA_Texas_District_v1.csv](data/recovery/DATA_Texas_District_v1.csv): raw integrated data with normalization, delta without missing value handling for EDA
+  - [DATA_Texas_District_v2.csv](data/recovery/DATA_Texas_District_v2.csv): dropping all missing values with normalization and delta values for Feature Selection and Baseline modeling
+  - [DATA_Texas_District_v3.csv](data/recovery/DATA_Texas_District_v3.csv): raw integrated data without normalization, delta. missing value handling for Gradient Boosting experiment
+  - [DATA_Texas_District_v4.csv](data/recovery/DATA_Texas_District_v422.csv): deviate from v2 
     - replacing delta of students/teachers population related variables with % of each year. E.g.) `% Hispanic Diff` is replaced with `% Hispanic Students 2018-2019` and `% Hispanic Students 2020-2021`  
     - including ESSER funding variables only up to the year of 2021.
   
